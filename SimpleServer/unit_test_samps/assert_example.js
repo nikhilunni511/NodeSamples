@@ -6,7 +6,7 @@
  * [guide]
  * 1.right click the 'assert_example.js',
  * choose the 'StartExplorer> Start shell here',
- * and execute 'mocha assert_example'
+ * and execute 'mocha assert_example.js'
  * 
  */
 var assert = require("assert");
