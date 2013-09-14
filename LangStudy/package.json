@@ -1,7 +1,7 @@
 {
   "name": "LangStudy",
   "version": "0.1.0",
-  "description": "LangStudy",
+  "description": "JSLangStudy",
   "main": "hello-world-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
