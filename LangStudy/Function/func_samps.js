@@ -43,5 +43,12 @@ var tensquared = (function(x) {
 }(10));
 console.log(tensquared);
 
+//============================
+//NOTE : IF FUNCTIONS ARE USED ONLY ONCE,
+//WE CAN DEFINE IT AS Case4 and Case5(a kind of anonymous function(匿名函数))
+//============================
+
+
+
 
 
