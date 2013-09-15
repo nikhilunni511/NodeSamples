@@ -6,7 +6,8 @@
  */
 var p = {x:0};//Define a prototype object.
 var p2 = {x:1,y:2};
-var o = Object.create(p);//Create an object with that prototype.
+var o = Object.create(p);//Create an object o with that prototype p.
+						 //inherit the property of the prototype object
 var d = new Date();
 var a = new Array();
 
