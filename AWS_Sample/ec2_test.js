@@ -12,7 +12,7 @@ AWS.config.update({region: 'us-west-2'});
 var ec2 = new AWS.EC2();
 
 var params = {
-  ImageId: 'ami-1624987f', // Amazon Linux AMI x86_64 EBS
+  ImageId: 'ami-0358ce33', // Amazon Linux AMI x86_64 EBS
   InstanceType: 't1.micro',
   MinCount: 1, MaxCount: 1
 };
@@ -26,7 +26,7 @@ ec2.runInstances(params, function(err, data) {
 
   // Add tags to the instance
   params = {Resources: [instanceId], Tags: [
-    {Key: 'Name', Value: instanceName}
+    {Key: 'Name', Value: "OpenTeamTestWebServer"}
   ]};
   ec2.createTags(params, function(err) {
     console.log("Tagging instance", err ? "failure" : "success");
