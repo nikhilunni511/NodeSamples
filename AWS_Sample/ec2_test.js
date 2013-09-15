@@ -32,3 +32,12 @@ ec2.runInstances(params, function(err, data) {
     console.log("Tagging instance", err ? "failure" : "success");
   });
 });
+
+
+/*
+ * [Tagging Your Amazon EC2 Resources]
+ * http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html
+ * 
+ * 
+ * */
+
