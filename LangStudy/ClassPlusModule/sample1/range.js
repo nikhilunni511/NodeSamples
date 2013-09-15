@@ -1,7 +1,8 @@
 /**
  * @author TonyGuu
  * 
- * DESC:【CASE 9.1】A class representing a range of values.
+ * DESC:【CASE 9.1】 Classes and Prototypes
+ * A class representing a range of values.
  * 
  */
 var childFactory = require("./ChildFactory");
