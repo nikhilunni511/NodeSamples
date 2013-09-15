@@ -17,7 +17,7 @@ var params = {
   MinCount: 1, MaxCount: 1
 };
 
-// Create the instance
+// Create the instance(specified number of instances)
 ec2.runInstances(params, function(err, data) {
   if (err) { console.log("Could not create instance", err); return; }
 
