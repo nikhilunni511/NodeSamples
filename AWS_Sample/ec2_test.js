@@ -17,17 +17,21 @@ var params = {
   MinCount: 1, MaxCount: 1
 };
 
-// Create the instance(specified number of instances)
+// ##Create the instance(specified number of instances)
 ec2.runInstances(params, function(err, data) {
   if (err) { console.log("Could not create instance", err); return; }
 
   var instanceId = data.Instances[0].InstanceId;
-  console.log("Created instance", instanceId);
+  var groupName = data.Groups[0];
+  
+  console.log("Created instance", instanceId , ", GroupName : ",groupName);
 
-  // Add tags to the instance
+  // ##Add tags to the instance
+  // use tags to manage the sources
   params = {Resources: [instanceId], Tags: [
     {Key: 'Name', Value: "OpenTeamTestWebServer"}
   ]};
+  //Adds or overwrites tags for the specified resources.
   ec2.createTags(params, function(err) {
     console.log("Tagging instance", err ? "failure" : "success");
   });
