@@ -7,17 +7,31 @@
  * 
  */
 var AWS = require('aws-sdk');
-AWS.config.update({region: 'us-west-2'});
+AWS.config.update({region: 'ap-southeast-1'});
+
+//'Regions and Availability Zones' may refer to
+//http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
 
 var ec2 = new AWS.EC2();
 
 var params = {
   ImageId: 'ami-0358ce33', // Amazon Linux AMI x86_64 EBS
-  InstanceType: 't1.micro',
+  InstanceType: 't1.micro', //Micro instance type
+  							//Instance type may refer : 
+  							//http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html#AvailableInstanceTypes
   MinCount: 1, MaxCount: 1
 };
 
 // ##Create the instance(specified number of instances)
+// Note :the function(err, data) is a callback,it is executed when the response or error data
+//       is available.the 'data' parameter is from the response,
+//       The 'data' value may be null,so we should check the 'err' value firstly.
+// The 'err' and 'data' parameters accepted are equivalent to the error and data properties
+// in the AWS.Response object
+
+//About the request & response,may refer :
+//http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/makingrequests.html
+
 ec2.runInstances(params, function(err, data) {
   if (err) { console.log("Could not create instance", err); return; }
 
