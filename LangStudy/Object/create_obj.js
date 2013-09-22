@@ -45,6 +45,12 @@ var r = new RegExp("js"); // Create a RegExp object for pattern matching.
 //===========================
 var o1 = Object.create({x:1,y:2});//o1 inherits properties x and y
 
+//create an empty object
+var emptyObj = {};
+var emptyObj2 = Object.create(null);
+var emptyObj3 = new Object();
+
+
 //===========================
 //get and set and create Properties
 //ch6.
