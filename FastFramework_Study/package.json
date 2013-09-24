@@ -1,0 +1,35 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.1.0",
+    "jade": "*",
+    "mongodb": "*",
+    "validator": "*",
+    "struct": "*",
+    "redis": "*",
+    "connect": "*",
+    "connect-redis": "*",
+    "crypto": "*",
+    "oauth2-provider": "*",
+    "nodemailer" : "*",
+    "passport": "*",
+    "passport-local" : "*",
+  "passport-twitter": "*",
+  "passport-facebook": "*",
+  "passport-github": "*",
+  "passport-google-oauth": "*",
+    "passport-sina": "*",
+    "passport-qq": "*",
+    "restler": "*",
+    "password-hash": "*",
+    "zookeeper": "*"
+  },
+  "devDependencies" : {
+     "mocha": "latest"
+  }
+}

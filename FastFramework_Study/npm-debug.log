@@ -1,0 +1,1186 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\tools\\node\\node.exe',
+1 verbose cli   'd:\\tools\\node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.2.10
+3 info using node@v0.8.19
+4 verbose read json d:\workspaces\JsSource\FastFramework\package.json
+5 warn package.json application-name@0.0.1 No README.md file found!
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'd:\\workspaces\\JsSource\\FastFramework',
+7 verbose install   [ 'express',
+7 verbose install     'jade',
+7 verbose install     'mongodb',
+7 verbose install     'validator',
+7 verbose install     'struct',
+7 verbose install     'redis',
+7 verbose install     'connect',
+7 verbose install     'connect-redis',
+7 verbose install     'crypto',
+7 verbose install     'oauth2-provider',
+7 verbose install     'nodemailer',
+7 verbose install     'passport',
+7 verbose install     'passport-local',
+7 verbose install     'passport-twitter',
+7 verbose install     'passport-facebook',
+7 verbose install     'passport-github',
+7 verbose install     'passport-google-oauth',
+7 verbose install     'passport-sina',
+7 verbose install     'passport-qq',
+7 verbose install     'restler',
+7 verbose install     'password-hash',
+7 verbose install     'zookeeper',
+7 verbose install     'mocha' ] ]
+8 verbose from cache d:\workspaces\JsSource\FastFramework\package.json
+9 info preinstall application-name@0.0.1
+10 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\connect\package.json
+11 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\connect-redis\package.json
+12 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\crypto\package.json
+13 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\express\package.json
+14 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\jade\package.json
+15 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\mocha\package.json
+16 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\mongodb\package.json
+17 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\oauth2-provider\package.json
+18 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\passport\package.json
+19 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\passport-facebook\package.json
+20 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\passport-github\package.json
+21 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\passport-google-oauth\package.json
+22 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\passport-local\package.json
+23 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\passport-qq\package.json
+24 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\passport-sina\package.json
+25 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\passport-twitter\package.json
+26 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\password-hash\package.json
+27 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\redis\package.json
+28 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\restler\package.json
+29 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\struct\package.json
+30 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\validator\package.json
+31 verbose from cache d:\workspaces\JsSource\FastFramework\package.json
+32 verbose readDependencies using package.json deps
+33 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\connect\package.json
+34 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\connect-redis\package.json
+35 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\crypto\package.json
+36 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\express\package.json
+37 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\jade\package.json
+38 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\mocha\package.json
+39 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\mongodb\package.json
+40 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\oauth2-provider\package.json
+41 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\passport\package.json
+42 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\passport-facebook\package.json
+43 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\passport-github\package.json
+44 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\passport-google-oauth\package.json
+45 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\passport-local\package.json
+46 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\passport-qq\package.json
+47 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\passport-sina\package.json
+48 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\passport-twitter\package.json
+49 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\password-hash\package.json
+50 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\redis\package.json
+51 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\restler\package.json
+52 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\struct\package.json
+53 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\validator\package.json
+54 verbose already installed skipping express@3.1.0 d:\workspaces\JsSource\FastFramework
+55 verbose already installed skipping jade@* d:\workspaces\JsSource\FastFramework
+56 verbose already installed skipping mongodb@* d:\workspaces\JsSource\FastFramework
+57 verbose already installed skipping validator@* d:\workspaces\JsSource\FastFramework
+58 verbose already installed skipping struct@* d:\workspaces\JsSource\FastFramework
+59 verbose already installed skipping passport-sina@* d:\workspaces\JsSource\FastFramework
+60 verbose already installed skipping passport-qq@* d:\workspaces\JsSource\FastFramework
+61 verbose already installed skipping redis@* d:\workspaces\JsSource\FastFramework
+62 verbose already installed skipping connect@* d:\workspaces\JsSource\FastFramework
+63 verbose already installed skipping connect-redis@* d:\workspaces\JsSource\FastFramework
+64 verbose already installed skipping crypto@* d:\workspaces\JsSource\FastFramework
+65 verbose already installed skipping oauth2-provider@* d:\workspaces\JsSource\FastFramework
+66 verbose cache add [ 'nodemailer@*', null ]
+67 verbose cache add name=undefined spec="nodemailer@*" args=["nodemailer@*",null]
+68 verbose parsed url { pathname: 'nodemailer@*',
+68 verbose parsed url   path: 'nodemailer@*',
+68 verbose parsed url   href: 'nodemailer@*' }
+69 verbose cache add name="nodemailer" spec="*" args=["nodemailer","*"]
+70 verbose parsed url { pathname: '*', path: '*', href: '*' }
+71 verbose addNamed [ 'nodemailer', '*' ]
+72 verbose addNamed [ null, '' ]
+73 verbose already installed skipping passport@* d:\workspaces\JsSource\FastFramework
+74 verbose already installed skipping passport-local@* d:\workspaces\JsSource\FastFramework
+75 verbose already installed skipping passport-twitter@* d:\workspaces\JsSource\FastFramework
+76 verbose already installed skipping passport-facebook@* d:\workspaces\JsSource\FastFramework
+77 verbose already installed skipping passport-github@* d:\workspaces\JsSource\FastFramework
+78 verbose already installed skipping passport-google-oauth@* d:\workspaces\JsSource\FastFramework
+79 silly lockFile d590c53c-nodemailer nodemailer@*
+80 verbose lock nodemailer@* C:\Users\zhaogang\AppData\Roaming\npm-cache\d590c53c-nodemailer.lock
+81 silly addNameRange { name: 'nodemailer', range: '', hasData: false }
+82 verbose url raw nodemailer
+83 verbose url resolving [ 'https://registry.npmjs.org/', './nodemailer' ]
+84 verbose url resolved https://registry.npmjs.org/nodemailer
+85 info trying registry request attempt 1 at 11:48:44
+86 http GET https://registry.npmjs.org/nodemailer
+87 verbose already installed skipping restler@* d:\workspaces\JsSource\FastFramework
+88 verbose already installed skipping password-hash@* d:\workspaces\JsSource\FastFramework
+89 verbose cache add [ 'zookeeper@*', null ]
+90 verbose cache add name=undefined spec="zookeeper@*" args=["zookeeper@*",null]
+91 verbose parsed url { pathname: 'zookeeper@*',
+91 verbose parsed url   path: 'zookeeper@*',
+91 verbose parsed url   href: 'zookeeper@*' }
+92 verbose cache add name="zookeeper" spec="*" args=["zookeeper","*"]
+93 verbose parsed url { pathname: '*', path: '*', href: '*' }
+94 verbose addNamed [ 'zookeeper', '*' ]
+95 verbose addNamed [ null, '' ]
+96 silly lockFile 86bf5f21-zookeeper zookeeper@*
+97 verbose lock zookeeper@* C:\Users\zhaogang\AppData\Roaming\npm-cache\86bf5f21-zookeeper.lock
+98 verbose cache add [ 'mocha@latest', null ]
+99 verbose cache add name=undefined spec="mocha@latest" args=["mocha@latest",null]
+100 verbose parsed url { pathname: 'mocha@latest',
+100 verbose parsed url   path: 'mocha@latest',
+100 verbose parsed url   href: 'mocha@latest' }
+101 verbose cache add name="mocha" spec="latest" args=["mocha","latest"]
+102 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+103 verbose addNamed [ 'mocha', 'latest' ]
+104 verbose addNamed [ null, null ]
+105 silly lockFile 12215997-mocha-latest mocha@latest
+106 verbose lock mocha@latest C:\Users\zhaogang\AppData\Roaming\npm-cache\12215997-mocha-latest.lock
+107 silly addNameRange { name: 'zookeeper', range: '', hasData: false }
+108 info addNameTag [ 'mocha', 'latest' ]
+109 verbose url raw zookeeper
+110 verbose url resolving [ 'https://registry.npmjs.org/', './zookeeper' ]
+111 verbose url resolved https://registry.npmjs.org/zookeeper
+112 info trying registry request attempt 1 at 11:48:44
+113 verbose etag "9EA9K1FNPWWZHYQOHHTTX6SXO"
+114 http GET https://registry.npmjs.org/zookeeper
+115 verbose url raw mocha
+116 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+117 verbose url resolved https://registry.npmjs.org/mocha
+118 info trying registry request attempt 1 at 11:48:44
+119 verbose etag "12MU0OYB9ATOEXHPHWQXFCROU"
+120 http GET https://registry.npmjs.org/mocha
+121 http 304 https://registry.npmjs.org/zookeeper
+122 silly registry.get cb [ 304,
+122 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+122 silly registry.get     etag: '"9EA9K1FNPWWZHYQOHHTTX6SXO"',
+122 silly registry.get     date: 'Mon, 09 Sep 2013 03:48:47 GMT',
+122 silly registry.get     'content-length': '0' } ]
+123 verbose etag zookeeper from cache
+124 silly addNameRange number 2 { name: 'zookeeper', range: '', hasData: true }
+125 silly addNameRange versions [ 'zookeeper',
+125 silly addNameRange   [ '3.3.2-1',
+125 silly addNameRange     '3.3.2-2',
+125 silly addNameRange     '3.3.2-3',
+125 silly addNameRange     '3.3.2-4',
+125 silly addNameRange     '3.3.3-0',
+125 silly addNameRange     '3.4.1',
+125 silly addNameRange     '3.4.1-3',
+125 silly addNameRange     '3.4.1-2',
+125 silly addNameRange     '3.4.1-4',
+125 silly addNameRange     '3.4.5',
+125 silly addNameRange     '3.4.6',
+125 silly addNameRange     '3.4.5-1' ] ]
+126 verbose addNamed [ 'zookeeper', '3.4.5-1' ]
+127 verbose addNamed [ '3.4.5-1', '3.4.5-1' ]
+128 silly lockFile 2750e927-zookeeper-3-4-5-1 zookeeper@3.4.5-1
+129 verbose lock zookeeper@3.4.5-1 C:\Users\zhaogang\AppData\Roaming\npm-cache\2750e927-zookeeper-3-4-5-1.lock
+130 verbose read json C:\Users\zhaogang\AppData\Roaming\npm-cache\zookeeper\3.4.5-1\package\package.json
+131 silly lockFile 2750e927-zookeeper-3-4-5-1 zookeeper@3.4.5-1
+132 silly lockFile 2750e927-zookeeper-3-4-5-1 zookeeper@3.4.5-1
+133 silly lockFile 86bf5f21-zookeeper zookeeper@*
+134 silly lockFile 86bf5f21-zookeeper zookeeper@*
+135 http 304 https://registry.npmjs.org/mocha
+136 silly registry.get cb [ 304,
+136 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+136 silly registry.get     etag: '"12MU0OYB9ATOEXHPHWQXFCROU"',
+136 silly registry.get     date: 'Mon, 09 Sep 2013 03:48:48 GMT',
+136 silly registry.get     'content-length': '0' } ]
+137 verbose etag mocha from cache
+138 verbose addNamed [ 'mocha', '1.12.1' ]
+139 verbose addNamed [ '1.12.1', '1.12.1' ]
+140 silly lockFile a87c93b9-mocha-1-12-1 mocha@1.12.1
+141 verbose lock mocha@1.12.1 C:\Users\zhaogang\AppData\Roaming\npm-cache\a87c93b9-mocha-1-12-1.lock
+142 verbose read json C:\Users\zhaogang\AppData\Roaming\npm-cache\mocha\1.12.1\package\package.json
+143 silly lockFile a87c93b9-mocha-1-12-1 mocha@1.12.1
+144 silly lockFile a87c93b9-mocha-1-12-1 mocha@1.12.1
+145 silly lockFile 12215997-mocha-latest mocha@latest
+146 silly lockFile 12215997-mocha-latest mocha@latest
+147 info already installed mocha@1.12.1
+148 http 200 https://registry.npmjs.org/nodemailer
+149 silly registry.get cb [ 200,
+149 silly registry.get   { vary: 'Accept',
+149 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+149 silly registry.get     etag: '"8CLBWEMLEBMIEQCHOZ4BAL13E"',
+149 silly registry.get     date: 'Mon, 09 Sep 2013 03:48:46 GMT',
+149 silly registry.get     'content-type': 'application/json',
+149 silly registry.get     'content-length': '1281787' } ]
+150 silly addNameRange number 2 { name: 'nodemailer', range: '', hasData: true }
+151 silly addNameRange versions [ 'nodemailer',
+151 silly addNameRange   [ '0.1.1',
+151 silly addNameRange     '0.1.2',
+151 silly addNameRange     '0.1.3',
+151 silly addNameRange     '0.1.4',
+151 silly addNameRange     '0.1.5',
+151 silly addNameRange     '0.1.6',
+151 silly addNameRange     '0.1.7',
+151 silly addNameRange     '0.1.8',
+151 silly addNameRange     '0.1.9',
+151 silly addNameRange     '0.1.10',
+151 silly addNameRange     '0.1.11',
+151 silly addNameRange     '0.1.12',
+151 silly addNameRange     '0.1.13',
+151 silly addNameRange     '0.1.14',
+151 silly addNameRange     '0.1.15',
+151 silly addNameRange     '0.1.16',
+151 silly addNameRange     '0.1.17',
+151 silly addNameRange     '0.1.18',
+151 silly addNameRange     '0.1.19',
+151 silly addNameRange     '0.1.20',
+151 silly addNameRange     '0.1.21',
+151 silly addNameRange     '0.1.22',
+151 silly addNameRange     '0.1.23',
+151 silly addNameRange     '0.1.24',
+151 silly addNameRange     '0.2.0',
+151 silly addNameRange     '0.2.1',
+151 silly addNameRange     '0.2.2',
+151 silly addNameRange     '0.2.3',
+151 silly addNameRange     '0.2.4',
+151 silly addNameRange     '0.3.0',
+151 silly addNameRange     '0.3.1',
+151 silly addNameRange     '0.3.2',
+151 silly addNameRange     '0.3.3',
+151 silly addNameRange     '0.3.4',
+151 silly addNameRange     '0.3.5',
+151 silly addNameRange     '0.3.6',
+151 silly addNameRange     '0.3.7',
+151 silly addNameRange     '0.3.8',
+151 silly addNameRange     '0.3.9',
+151 silly addNameRange     '0.3.10',
+151 silly addNameRange     '0.3.11',
+151 silly addNameRange     '0.3.12',
+151 silly addNameRange     '0.3.13',
+151 silly addNameRange     '0.3.14',
+151 silly addNameRange     '0.3.15',
+151 silly addNameRange     '0.3.16',
+151 silly addNameRange     '0.3.17',
+151 silly addNameRange     '0.3.18',
+151 silly addNameRange     '0.3.19',
+151 silly addNameRange     '0.3.20',
+151 silly addNameRange     '0.3.21',
+151 silly addNameRange     '0.3.22',
+151 silly addNameRange     '0.3.23',
+151 silly addNameRange     '0.3.24',
+151 silly addNameRange     '0.3.25',
+151 silly addNameRange     '0.3.26',
+151 silly addNameRange     '0.3.27',
+151 silly addNameRange     '0.3.28',
+151 silly addNameRange     '0.3.29',
+151 silly addNameRange     '0.3.30',
+151 silly addNameRange     '0.3.31',
+151 silly addNameRange     '0.3.32',
+151 silly addNameRange     '0.3.33',
+151 silly addNameRange     '0.3.34',
+151 silly addNameRange     '0.3.35',
+151 silly addNameRange     '0.3.37',
+151 silly addNameRange     '0.3.38',
+151 silly addNameRange     '0.3.39',
+151 silly addNameRange     '0.3.40',
+151 silly addNameRange     '0.3.41',
+151 silly addNameRange     '0.3.42',
+151 silly addNameRange     '0.3.43',
+151 silly addNameRange     '0.3.44',
+151 silly addNameRange     '0.4.0',
+151 silly addNameRange     '0.4.1',
+151 silly addNameRange     '0.4.2',
+151 silly addNameRange     '0.4.3',
+151 silly addNameRange     '0.4.4',
+151 silly addNameRange     '0.5.0',
+151 silly addNameRange     '0.5.1',
+151 silly addNameRange     '0.5.2' ] ]
+152 verbose addNamed [ 'nodemailer', '0.5.2' ]
+153 verbose addNamed [ '0.5.2', '0.5.2' ]
+154 silly lockFile efb5b675-nodemailer-0-5-2 nodemailer@0.5.2
+155 verbose lock nodemailer@0.5.2 C:\Users\zhaogang\AppData\Roaming\npm-cache\efb5b675-nodemailer-0-5-2.lock
+156 silly lockFile 2f6f3636--nodemailer-nodemailer-0-5-2-tgz https://registry.npmjs.org/nodemailer/-/nodemailer-0.5.2.tgz
+157 verbose lock https://registry.npmjs.org/nodemailer/-/nodemailer-0.5.2.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\2f6f3636--nodemailer-nodemailer-0-5-2-tgz.lock
+158 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodemailer/-/nodemailer-0.5.2.tgz',
+158 verbose addRemoteTarball   '1c2fb72e5744469016495d296fb9da3d3adfe2ae' ]
+159 info retry fetch attempt 1 at 11:49:18
+160 verbose fetch to= C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\tmp.tgz
+161 http GET https://registry.npmjs.org/nodemailer/-/nodemailer-0.5.2.tgz
+162 http 200 https://registry.npmjs.org/nodemailer/-/nodemailer-0.5.2.tgz
+163 silly shasum updated bytes 40960
+164 silly shasum updated bytes 15302
+165 info shasum 1c2fb72e5744469016495d296fb9da3d3adfe2ae
+165 info shasum C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\tmp.tgz
+166 verbose tar unpack C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\tmp.tgz
+167 silly lockFile cca76f87-8566-0-39707730687223375-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\package
+168 verbose lock C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\package C:\Users\zhaogang\AppData\Roaming\npm-cache\cca76f87-8566-0-39707730687223375-package.lock
+169 silly lockFile ac72875c-8566-0-39707730687223375-tmp-tgz C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\tmp.tgz
+170 verbose lock C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\tmp.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\ac72875c-8566-0-39707730687223375-tmp-tgz.lock
+171 silly gunzTarPerm modes [ '755', '644' ]
+172 silly gunzTarPerm extractEntry package.json
+173 silly gunzTarPerm extractEntry .npmignore
+174 silly gunzTarPerm extractEntry README.md
+175 silly gunzTarPerm extractEntry LICENSE
+176 silly gunzTarPerm extractEntry .travis.yml
+177 silly gunzTarPerm extractEntry examples/example_alternative.js
+178 silly gunzTarPerm extractEntry examples/example_autoembedding.js
+179 silly gunzTarPerm extractEntry examples/example_dkim.js
+180 silly gunzTarPerm extractEntry examples/example_sendmail.js
+181 silly gunzTarPerm extractEntry examples/example_ses.js
+182 silly gunzTarPerm extractEntry examples/example_smtp.js
+183 silly gunzTarPerm extractEntry examples/example_xoauth.js
+184 silly gunzTarPerm extractEntry examples/example_xoauth2.js
+185 silly gunzTarPerm extractEntry examples/nyan.gif
+186 silly gunzTarPerm extractEntry examples/test_private.pem
+187 silly gunzTarPerm extractEntry lib/helpers.js
+188 silly gunzTarPerm extractEntry lib/nodemailer.js
+189 silly gunzTarPerm extractEntry lib/transport.js
+190 silly gunzTarPerm extractEntry lib/wellknown.js
+191 silly gunzTarPerm extractEntry lib/xoauth.js
+192 silly gunzTarPerm extractEntry lib/engines/sendmail.js
+193 silly gunzTarPerm extractEntry lib/engines/ses.js
+194 silly gunzTarPerm extractEntry lib/engines/smtp.js
+195 silly gunzTarPerm extractEntry lib/engines/stub.js
+196 silly gunzTarPerm extractEntry test/nodemailer.js
+197 verbose read json C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\package\package.json
+198 silly lockFile cca76f87-8566-0-39707730687223375-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\package
+199 silly lockFile cca76f87-8566-0-39707730687223375-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\package
+200 silly lockFile ac72875c-8566-0-39707730687223375-tmp-tgz C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\tmp.tgz
+201 silly lockFile ac72875c-8566-0-39707730687223375-tmp-tgz C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\tmp.tgz
+202 verbose from cache C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\package\package.json
+203 verbose tar pack [ 'C:\\Users\\zhaogang\\AppData\\Roaming\\npm-cache\\nodemailer\\0.5.2\\package.tgz',
+203 verbose tar pack   'C:\\Users\\zhaogang\\AppData\\Local\\Temp\\npm-5764\\1378698558566-0.39707730687223375\\package' ]
+204 verbose tarball C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+205 verbose folder C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\package
+206 silly lockFile cca76f87-8566-0-39707730687223375-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\package
+207 verbose lock C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\package C:\Users\zhaogang\AppData\Roaming\npm-cache\cca76f87-8566-0-39707730687223375-package.lock
+208 silly lockFile 4d58ed0f-che-nodemailer-0-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+209 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\4d58ed0f-che-nodemailer-0-5-2-package-tgz.lock
+210 silly lockFile cca76f87-8566-0-39707730687223375-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\package
+211 silly lockFile cca76f87-8566-0-39707730687223375-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698558566-0.39707730687223375\package
+212 silly lockFile 4d58ed0f-che-nodemailer-0-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+213 silly lockFile 4d58ed0f-che-nodemailer-0-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+214 silly lockFile 840b95ce-m-cache-nodemailer-0-5-2-package C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package
+215 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package C:\Users\zhaogang\AppData\Roaming\npm-cache\840b95ce-m-cache-nodemailer-0-5-2-package.lock
+216 silly lockFile 840b95ce-m-cache-nodemailer-0-5-2-package C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package
+217 silly lockFile 840b95ce-m-cache-nodemailer-0-5-2-package C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package
+218 verbose tar unpack C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+219 silly lockFile 840b95ce-m-cache-nodemailer-0-5-2-package C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package
+220 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package C:\Users\zhaogang\AppData\Roaming\npm-cache\840b95ce-m-cache-nodemailer-0-5-2-package.lock
+221 silly lockFile 4d58ed0f-che-nodemailer-0-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+222 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\4d58ed0f-che-nodemailer-0-5-2-package-tgz.lock
+223 silly gunzTarPerm modes [ '755', '644' ]
+224 silly gunzTarPerm extractEntry package.json
+225 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+226 silly gunzTarPerm extractEntry .npmignore
+227 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+228 silly gunzTarPerm extractEntry README.md
+229 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+230 silly gunzTarPerm extractEntry LICENSE
+231 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+232 silly gunzTarPerm extractEntry .travis.yml
+233 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+234 silly gunzTarPerm extractEntry examples/example_alternative.js
+235 silly gunzTarPerm modified mode [ 'examples/example_alternative.js', 438, 420 ]
+236 silly gunzTarPerm extractEntry examples/example_autoembedding.js
+237 silly gunzTarPerm modified mode [ 'examples/example_autoembedding.js', 438, 420 ]
+238 silly gunzTarPerm extractEntry examples/example_dkim.js
+239 silly gunzTarPerm modified mode [ 'examples/example_dkim.js', 438, 420 ]
+240 silly gunzTarPerm extractEntry examples/example_sendmail.js
+241 silly gunzTarPerm modified mode [ 'examples/example_sendmail.js', 438, 420 ]
+242 silly gunzTarPerm extractEntry examples/example_ses.js
+243 silly gunzTarPerm modified mode [ 'examples/example_ses.js', 438, 420 ]
+244 silly gunzTarPerm extractEntry examples/example_smtp.js
+245 silly gunzTarPerm modified mode [ 'examples/example_smtp.js', 438, 420 ]
+246 silly gunzTarPerm extractEntry examples/example_xoauth.js
+247 silly gunzTarPerm modified mode [ 'examples/example_xoauth.js', 438, 420 ]
+248 silly gunzTarPerm extractEntry examples/example_xoauth2.js
+249 silly gunzTarPerm modified mode [ 'examples/example_xoauth2.js', 438, 420 ]
+250 silly gunzTarPerm extractEntry examples/nyan.gif
+251 silly gunzTarPerm modified mode [ 'examples/nyan.gif', 438, 420 ]
+252 silly gunzTarPerm extractEntry examples/test_private.pem
+253 silly gunzTarPerm modified mode [ 'examples/test_private.pem', 438, 420 ]
+254 silly gunzTarPerm extractEntry lib/helpers.js
+255 silly gunzTarPerm modified mode [ 'lib/helpers.js', 438, 420 ]
+256 silly gunzTarPerm extractEntry lib/nodemailer.js
+257 silly gunzTarPerm modified mode [ 'lib/nodemailer.js', 438, 420 ]
+258 silly gunzTarPerm extractEntry lib/transport.js
+259 silly gunzTarPerm modified mode [ 'lib/transport.js', 438, 420 ]
+260 silly gunzTarPerm extractEntry lib/wellknown.js
+261 silly gunzTarPerm modified mode [ 'lib/wellknown.js', 438, 420 ]
+262 silly gunzTarPerm extractEntry lib/xoauth.js
+263 silly gunzTarPerm modified mode [ 'lib/xoauth.js', 438, 420 ]
+264 silly gunzTarPerm extractEntry lib/engines/sendmail.js
+265 silly gunzTarPerm modified mode [ 'lib/engines/sendmail.js', 438, 420 ]
+266 silly gunzTarPerm extractEntry lib/engines/ses.js
+267 silly gunzTarPerm modified mode [ 'lib/engines/ses.js', 438, 420 ]
+268 silly gunzTarPerm extractEntry lib/engines/smtp.js
+269 silly gunzTarPerm modified mode [ 'lib/engines/smtp.js', 438, 420 ]
+270 silly gunzTarPerm extractEntry lib/engines/stub.js
+271 silly gunzTarPerm modified mode [ 'lib/engines/stub.js', 438, 420 ]
+272 silly gunzTarPerm extractEntry test/nodemailer.js
+273 silly gunzTarPerm modified mode [ 'test/nodemailer.js', 438, 420 ]
+274 verbose read json C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package\package.json
+275 silly lockFile 840b95ce-m-cache-nodemailer-0-5-2-package C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package
+276 silly lockFile 840b95ce-m-cache-nodemailer-0-5-2-package C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package
+277 silly lockFile 4d58ed0f-che-nodemailer-0-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+278 silly lockFile 4d58ed0f-che-nodemailer-0-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+279 silly shasum updated bytes 40960
+280 silly shasum updated bytes 15154
+281 info shasum 064a2634c9c4b0c53ef11f30d696b4562dac953c
+281 info shasum C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+282 verbose from cache C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package\package.json
+283 verbose chmod C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz 644
+284 silly chown skipping for windows C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+285 silly lockFile 2f6f3636--nodemailer-nodemailer-0-5-2-tgz https://registry.npmjs.org/nodemailer/-/nodemailer-0.5.2.tgz
+286 silly lockFile 2f6f3636--nodemailer-nodemailer-0-5-2-tgz https://registry.npmjs.org/nodemailer/-/nodemailer-0.5.2.tgz
+287 silly lockFile efb5b675-nodemailer-0-5-2 nodemailer@0.5.2
+288 silly lockFile efb5b675-nodemailer-0-5-2 nodemailer@0.5.2
+289 silly lockFile d590c53c-nodemailer nodemailer@*
+290 silly lockFile d590c53c-nodemailer nodemailer@*
+291 silly resolved [ { name: 'zookeeper',
+291 silly resolved     description: 'apache zookeeper client (zookeeper async API >= 3.4.0)',
+291 silly resolved     version: '3.4.5-1',
+291 silly resolved     author: { name: 'Yuri Finkelstein', email: 'yurif2003@yahoo.com' },
+291 silly resolved     contributors:
+291 silly resolved      [ [Object],
+291 silly resolved        [Object],
+291 silly resolved        [Object],
+291 silly resolved        [Object],
+291 silly resolved        [Object],
+291 silly resolved        [Object],
+291 silly resolved        [Object] ],
+291 silly resolved     repository:
+291 silly resolved      { type: 'git',
+291 silly resolved        url: 'https://github.com/yfinkelstein/node-zookeeper' },
+291 silly resolved     keywords: [ 'apache', 'zookeeper', 'client' ],
+291 silly resolved     dependencies: { async: '~0.2.6', underscore: '*' },
+291 silly resolved     devDependencies: { log4js: '~0.6.0', webworker: '>=0.8.4' },
+291 silly resolved     main: 'lib/index',
+291 silly resolved     scripts:
+291 silly resolved      { build: 'node-gyp configure build',
+291 silly resolved        test: 'pushd test; ./test; popd',
+291 silly resolved        install: 'node-gyp rebuild' },
+291 silly resolved     engines: { node: '>=0.8' },
+291 silly resolved     gypfile: true,
+291 silly resolved     readme: '# Overview\n\nnode-zookeeper - A Node.js client for Apache Zookeeper.\n\nThis module is implemented on top of the ZooKeeper C API; consult the [ZK Reference](http://zookeeper.apache.org/doc/r3.4.0/index.html) for further details on behavior.\n\n# Example\n\n```javascript\nvar ZooKeeper = require ("zookeeper");\nvar zk = new ZooKeeper({\n  connect: "localhost:2181"\n ,timeout: 200000\n ,debug_level: ZooKeeper.ZOO_LOG_LEVEL_WARN\n ,host_order_deterministic: false\n});\nzk.connect(function (err) {\n    if(err) throw err;\n    console.log ("zk session established, id=%s", zk.client_id);\n    zk.a_create ("/node.js1", "some value", ZooKeeper.ZOO_SEQUENCE | ZooKeeper.ZOO_EPHEMERAL, function (rc, error, path)  {\n        if (rc != 0) {\n            console.log ("zk node create result: %d, error: \'%s\', path=%s", rc, error, path);\n        } else {\n            console.log ("created zk node %s", path);\n            process.nextTick(function () {\n                zk.close ();\n            });\n        }\n    });\n});\n```\n\n# API Reference\n\n### Methods ###\n\n* init ( options )\n* close ( )\n* a_create ( path, data, flags, path_cb )\n* mkdirp ( path, callback(Error) )\n* a_exists ( path, watch, stat_cb )\n* a_get ( path, watch, data_cb )\n* a_get_children ( path, watch, child_cb )\n* a_get_children2 ( path, watch, child2_cb )\n* a_set ( path, data, version, stat_cb )\n* a_delete`_` ( path, version, void_cb )\n    * (trailing `_` is added to avoid conflict with reserved word `_delete_` since zk_promise.js strips off prefix `a_` from all operations)\n\n*The watcher methods are forward-looking subscriptions that can recieve multiple callbacks whenever a matching event occurs.*\n\n* aw_exists ( path, watch_cb, stat_cb )\n* aw_get ( path, watch_cb, data_cb )\n* aw_get_children ( path, watch_cb, child_cb )\n* aw_get_children2 ( path, watch_cb, child2_cb )\n\n### Callback Signatures ###\n\n * path_cb : function ( rc, error, path )\n * stat_cb : function ( rc, error, stat )\n * data_cb : function ( rc, error, stat, data )\n * child_cb : function ( rc, error, children )\n * child2_cb : function ( rc, error, children, stat )\n * void_cb : function ( rc, error )\n * watch_cb : function ( type, state, path )\n\n### Input Parameters ###\n\n * options : object. valid keys: { connect, timeout, debug_level, host_order_deterministic, data_as_buffer}\n * path : string\n * data : string or Buffer\n * flags : int32\n * version : int32\n * watch : boolean\n\n### Output Parameters ###\n\n * path is a string\n * data is either a Buffer (default), or a string (this is controlled by data_as_buffer = true/false)\n * children is an array of strings\n * rc is an int (error codes from zk api)\n * error is a string (error string from zk api)\n * type is an int event type (from zk api)\n * state is an int (state when the watcher fired from zk api)\n * stat is an object with the following attributes:\n     * long czxid              // created zxid\n     * long mzxid              // last modified zxid\n     * long ctime              // created\n     * long mtime              // last modified\n     * int version             // version\n     * int cversion            // child version\n     * int aversion            // acl version\n     * string ephemeralOwner   // owner session id if ephemeral, 0 otw\n     * int dataLength          //length of the data in the node\n     * int numChildren         //number of children of this node\n     * long pzxid              // last modified children\n\n\nSession state machine is well described in Zookeeper docs, i.e.\n![here](http://hadoop.apache.org/zookeeper/docs/r3.3.1/images/state_dia.jpg "State Diagram")\n\n# Limitations\n* no zookeeper ACL support\n* no support for authentication\n* tests are not standalone, must run a zk server (easiest if you run at localhost:2181, if not you must pass the connect string to the tests)\n* only asynchronous ZK methods are implemented. Hey, this is node.js ... no sync calls are allowed\n\n# Implementation Notes\n\n### NOTE on Module Status (DDOPSON-2011-11-30):\n* I ported this module to Node v0.6.0.  I did my best to retain compatibility with Node v0.4.x.  File bugs if you find any.\n* I have also worked to normalized the API style to be more conformant with Node conventions.  Again, I did my best to keep backwards compatibility with the old version.  File bugs if you find any.\n* The test coverage is pretty spotty.  It would be really great if someone converted the tests to Vows and / or using a mock instead of depending on a live ZK server.  I can\'t test and don\'t really trust the "promise" stuff in this module, but the core module itself works and makes my tests pass on downstream dependencies.\n\nFixes:\n* Node v0.6.0 compatibility - There is no native EventEmitter class anymore.  Need a JS shim.\n* Node v0.6.0 compatibility - MODULE_INIT macro just plain doesn\'t work.  not sure why, but an init function works just fine.\n* Node v0.6.0 compatibility - \'sys\' ==> \'util\'\n* Node v0.6.0 compatibility - There was an issue with the EV_A macro in yield();  was able to comment it out without harming behavior\n* events should be strings like \'connect\' instead of ZK.on_connected.  follow convention here.\n* no sense in "require(\'zookeeper\').ZooKeeper" instead of simply "require(\'zookeeper\')"\n\nTODO:\n* convert error codes to the names of the constants (eg, ZOO_CONNECT_FAIL instead of -110).\n* method names should map to convention. The "a_method" pattern is quite redundant in node.\n* Init should be called "connect", and should take a callback.  Forcing clients to use the events is awkward and error prone\n* Why do the watchers take two callbacks?\n\n\n### v0.2.x ==> v0.4.x Transition\nData coming out of ZooKeepr (in callbacks) will now default to being Buffer objects. The main ZK handle now has a boolean attribute called \'data_as_buffer\', which defaults to true. If you are storing strings only, as was only allowed in the initial implementation, or you wish to have data in callbacks arrive as strings, you add \'data_as_buffer:false\' to the init options, or add \'zk.data_as_buffer = false;\' before using the handle. The behavior defaults to Buffer objects because this aligns more closely with ZooKeeper itself which uses byte arrays. They are interchangable on input, if the input is a Buffer it will be used directly, otherwise the toString() of the input is used (this will work with utf8 data as well) regardless of mode.\n\nWith the new Buffer changes in the 0.3+ and 0.4+ branches, these will be internal \'SlowBuffer\' objects, and you should use Buffer.isBuffer if you are checking the type, as \'instanceof Buffer\' will return false.\n\n### yfinkelstein\'s original implementation notes\n\n* Zookeeper C API library comes in 2 flavours: single-threaded and multi-threaded. For node.js, single-threaded library provides the most sense since all events coming from ZK responses have to be dispatched to the main JS thread.\n* The C++ code uses the same logging facility that ZK C API uses internally. Hence zk_log.h file checked into this project. The file is considered ZK internal and is not installed into /usr/local/include\n* Multiple simultaneous ZK connections are supported and tested\n* All ZK constants are exposed as read-only properties of the ZooKeeper function, like ZK.ZOO_EPHEMERAL\n* All ZK API methods including watchers are supported.\n* lib/zk_promise.js is an optional module that makes use of the very cool **node-promise** library;\n see tests/zk_test_shootout_promise.js for illustration of how it can simplify coding. Isn\'t the following looking nicer?\n\n```javascript\nzk_r.on_connected().\nthen (\n    function (zkk){\n        console.log ("reader on_connected: zk=%j", zkk);\n        return zkk.create ("/node.js2", "some value", ZK.ZOO_SEQUENCE | ZK.ZOO_EPHEMERAL);\n    }\n).then (\n    function (path) {\n        zk_r.context.path = path;\n        console.log ("node created path=%s", path);\n        return zk_r.w_get (path,\n            function (type, state, path_w) { // this is a watcher\n                console.log ("watcher for path %s triggered", path_w);\n                deferred_watcher_triggered.resolve (path_w);\n            }\n        );\n    }\n).then (\n    function (stat_and_value) { // this is the response from w_get above\n        console.log ("get node: stat=%j, value=%s", stat_and_value[0], stat_and_value[1]);\n        deferred_watcher_ready.resolve (zk_r.context.path);\n        return deferred_watcher_triggered;\n    }\n).then (\n    function () {\n        console.log ("zk_reader is finished");\n        process.nextTick( function () {\n            zk_r.close ();\n        });\n    }\n);\n```\n\n* Also compare test/zk_test_watcher.js with test/zk_test_watcher_promise.js\n* tests/zk_master.js and tests/zk_worker.js illustrate launching multiple ZK client workers using webworker library. You have to install it first with **"npm install webworker"**\n\n# Building the module by hand\n-----\n\n```javascript\nnode-gyp configure build\n```\n\n- note: for more details on the zk c-client build process, see [here](http://hadoop.apache.org/zookeeper/docs/r3.3.1/zookeeperProgrammers.html#C+Binding "Build C client")\n- note: node_compat.h (ala node-png) handles Buffer changes from .2 to .3+, so you should be able to build against older node versions.\n- note: if you wish to build with a specific version of zookeeper C lib, use --zookeeper VERSION (will download/build it) or --zookeeper PATH (if you have downloaded it and possibly made changes etc.)\n- note: if you wish to link against an existing zookeeper lib: use --zoookeeper \'\', and put your lib/headers it in /usr/local/ (or edit the wscript appropriately)\n- note: if you are building on osx and you get a compile error regarding "mmacosx-version-min", you may need to edit the wscript and remove it  (anyone with the answer please explain/fix if possible).\n- note: on SmartOS, you must have installed zookeeper-client-3.4.3 via pkgsrc; ZooKeeper does not build "out of the box" on SunOS variants.\n- note: if you are building on a platform for which the options are not working, please add a specific elif for that platform and create a pull request.\n\n# Known Bugs & Issues\n\nDDOPSON-2011-11-30 - are these issues still relevant?  unknown.\n\n- The lib will segfault if you try to use a ZooKeeper intance after the on_closed event is delivered (possibly as a result of session timeout etc.) YOU MAY NOT re-use the closed ZooKeeper instance. You should allocate a new one and initialize it as a completely new client. Any and all watchers from your first instance are lost, though they may fire (before the on_close) see below.\n- Any established watches may/will be fired once each when/if your client is expired by the ZK server, the input arguments are observed to be: type=-1, state=1, path="". Care should be taken to handle this differently than a "real" watch event if that matters to your application.\n- Otherwise, it just works!\n\n# See Also\n\n- [http://hadoop.apache.org/zookeeper/releases.html](http://hadoop.apache.org/zookeeper/releases.html)\n- [http://hadoop.apache.org/zookeeper/docs/r3.3.1/zookeeperProgrammers.html#ZooKeeper+C+client+API](http://hadoop.apache.org/zookeeper/docs/r3.3.1/zookeeperProgrammers.html#ZooKeeper+C+client+API)\n- [http://github.com/kriszyp/node-promise](http://github.com/kriszyp/node-promise)\n- [http://github.com/pgriess/node-webworker](http://github.com/pgriess/node-webworker)\n\n# Acknowledgments\n\n- **[node-promise](http://github.com/kriszyp/node-promise "node-promise") by kriszyp** is a fantastic tool imho. I wish it was distributed as a module so that I could easily \'require\' it rather then\n resort to distribution by copy.\n- **[node-webworker](http://github.com/pgriess/node-webworker "node-webworker") by pgriess** is used to spawn multiple ZK workers in one of the tests.\n\n# LICENSE\n\nSee [LICENSE-MIT.txt](./LICENSE-MIT.txt) file in the top level folder.\n\n# ORIGINAL AUTHOR\n\nYuri Finkelstein (yurif2003 at yahoo dot com)\n\nwith awesome contributions from:\n\n- Woody Anderson (Woodya)\n- Dave Dopson (ddopson)\n- Ryan Phillips (rphillips)\n- David Trejo (DTrejo)\n- Mark Cavage (mcavage)\n',
+291 silly resolved     readmeFilename: 'README.md',
+291 silly resolved     _id: 'zookeeper@3.4.5-1',
+291 silly resolved     _from: 'zookeeper@*' },
+291 silly resolved   { name: 'nodemailer',
+291 silly resolved     description: 'Easy to use module to send e-mails, supports unicode and SSL/TLS',
+291 silly resolved     version: '0.5.2',
+291 silly resolved     author: { name: 'Andris Reinman' },
+291 silly resolved     maintainers: [ [Object] ],
+291 silly resolved     homepage: 'http://github.com/andris9/nodemailer',
+291 silly resolved     repository: { type: 'git', url: 'http://github.com/andris9/nodemailer.git' },
+291 silly resolved     scripts: { test: 'nodeunit test/' },
+291 silly resolved     main: './lib/nodemailer',
+291 silly resolved     licenses: [ [Object] ],
+291 silly resolved     dependencies: { mailcomposer: '~0.2', simplesmtp: '~0.2 || ~0.3' },
+291 silly resolved     devDependencies: { nodeunit: '*' },
+291 silly resolved     engines: { node: '>=0.6.0' },
+291 silly resolved     keywords: [ 'e-mail', 'mime', 'email', 'mail', 'sendmail', 'ses' ],
+291 silly resolved     readme: 'Nodemailer\n==========\n\n**Nodemailer** is an easy to use module to send e-mails with Node.JS (using\nSMTP or sendmail or Amazon SES) and is unicode friendly - You can use any characters you like ✔\n\nNodemailer is Windows friendly, you can install it with *npm* on Windows just like any other module, there are no compiled dependencies. Use it from Azure or from your Windows box hassle free.\n\n**[Read about using Nodemailer from the Node Knockout blog](http://blog.nodeknockout.com/post/34641712180/sending-email-from-node-js)**\n\n[![Build Status](https://secure.travis-ci.org/andris9/Nodemailer.png)](http://travis-ci.org/andris9/Nodemailer)\n[![NPM version](https://badge.fury.io/js/nodemailer.png)](http://badge.fury.io/js/nodemailer)\n\n## Notes and information\n\n### Nodemailer supports\n\n  * **Unicode** to use any characters\n  * **HTML content** as well as **plain text** alternative\n  * **Attachments** (including attachment **streaming** for sending larger files)\n  * **Embedded images** in HTML\n  * **SSL/STARTTLS** for secure e-mail delivery\n  * Different transport methods - **SMTP**, **sendmail** and **Amazon SES**\n  * SMTP **Connection pool** and connection reuse for rapid delivery\n  * **Preconfigured** services for using SMTP with Gmail, Hotmail etc.\n  * Use objects as header values for **SendGrid** SMTP API\n  * **XOAUTH2** authentication and token generation support - useful with Gmail\n  * **DKIM** signing\n\n### Support Nodemailer development\n\n[![Donate to author](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DB26KWR2BQX5W)\n\nIf you want to support with Bitcoins, then my wallet address is `15Z8ADxhssKUiwP3jbbqJwA21744KMCfTM`\n\n### Nodemailer PaaS support\n\nNodemailer has been tested successfully on the following PaaS platforms (using free/trial accounts):\n\n  * [heroku](http://www.heroku.com/)\n  * [AppFog](http://www.appfog.com/)\n  * [OpenShift](https://openshift.redhat.com/app/)\n  * [Nodejitsu](http://nodejitsu.com/)\n  * [Windows Azure](http://www.windowsazure.com/)\n\n### Check out my other mail related modules\n\nIf you want to parse generated or received e-mail instead of sending it, check\nout [MailParser](https://github.com/andris9/mailparser).\n\nIf you only want to generate the raw e-mail stream, check out\n[MailComposer](https://github.com/andris9/mailcomposer).\n\nIf you only want to communicate with the SMTP (both as client and the server),\ncheck out [simplesmtp](https://github.com/andris9/simplesmtp).\n\n### Templates\n\nTo use Nodemailer with templates, please see documentation for these projects.\n\n * [swig-email-templates](https://github.com/superjoe30/swig-email-templates) - swig, template inheritance, dummy context\n * [node-email-templates](https://github.com/niftylettuce/node-email-templates) - ejs\n\n## TL;DR Usage Example\n\nThis is a complete example to send an e-mail with plaintext and HTML body\n\n```javascript\nvar nodemailer = require("nodemailer");\n\n// create reusable transport method (opens pool of SMTP connections)\nvar smtpTransport = nodemailer.createTransport("SMTP",{\n    service: "Gmail",\n    auth: {\n        user: "gmail.user@gmail.com",\n        pass: "userpass"\n    }\n});\n\n// setup e-mail data with unicode symbols\nvar mailOptions = {\n    from: "Fred Foo ✔ <foo@blurdybloop.com>", // sender address\n    to: "bar@blurdybloop.com, baz@blurdybloop.com", // list of receivers\n    subject: "Hello ✔", // Subject line\n    text: "Hello world ✔", // plaintext body\n    html: "<b>Hello world ✔</b>" // html body\n}\n\n// send mail with defined transport object\nsmtpTransport.sendMail(mailOptions, function(error, response){\n    if(error){\n        console.log(error);\n    }else{\n        console.log("Message sent: " + response.message);\n    }\n\n    // if you don\'t want to use this transport object anymore, uncomment following line\n    //smtpTransport.close(); // shut down the connection pool, no more messages\n});\n```\n\nSee also the [examples folder](https://github.com/andris9/Nodemailer/tree/master/examples)\nfor full featured examples\n\n## Installation\n\nInstall through NPM\n\n```\nnpm install nodemailer\n```\n\n## Usage\n\nInclude the module\n\n```javascript\nvar nodemailer = require("nodemailer");\n```\n\nAn e-mail can be sent with `sendMail(mailOptions[, callback])` command\n\n```javascript\ntransport.sendMail(mailOptions, callback);\n```\n\nWhere\n\n  * `transport` is a transport object created from the `nodemailer.createTransport` method\n  * **mailOptions** defines the e-mail (set its subject, body text, receivers etc.), see [E-mail Message Fields](#e-mail-message-fields) for details\n  * **callback** is the callback function that will be run after the e-mail is sent or the sending failed (see [Return callback](#return-callback) for details)\n\n## Setting up a transport method\n\nBefore you can send any e-mails you need to set up a transport method. This can\nbe done with `nodemailer.createTransport(type, options)` where `type` indicates\nthe transport protocol and `options` defines how it is used.\n\n```javascript\nvar transport = nodemailer.createTransport("SMTP", {smtp_options});\n```\n\nThe same transport object can and should be reused several times.\n\nWhen the transport method is defined, it can be used to send e-mail with `sendMail`\n\n```javascript\nvar transport = nodemailer.createTransport("SMTP", {smtp_options});\n\ntransport.sendMail({\n    from: "sender@tr.ee",\n    to: "receiver@tr.ee"\n    ...\n});\n```\n\n### Possible transport methods\n\nRequired `type` parameter can be one of the following:\n\n  * **SMTP** for using SMTP\n  * **SES** for using Amazon SES\n  * **Sendmail** for utilizing systems *sendmail* command\n\n### Setting up SMTP\n\nSMTP is different from the other transport mechanisms, as in its case a connection\npool is created. All the connections try to stay alive as long as possible and\nare reusable to minimize the protocol overhead delay - for example setting up\nTLS for authenticating is relatively lengthy process (in CPU terms, not by human\nterms), you do not want to do it several times.\n\nPossible SMTP options are the following:\n\n * **service** - an optional well known service identifier ("Gmail", "Hotmail" etc., see [Well known Services](#well-known-services-for-smtp) for a list of supported services) to auto-configure host, port and secure connection settings\n * **host** - hostname of the SMTP server (defaults to "localhost", not needed with `service`)\n * **port** - port of the SMTP server (defaults to 25, not needed with `service`)\n * **secureConnection** - use SSL (default is `false`, not needed with `service`). If you\'re using port 587 then keep `secureConnection` false, since the connection is started in insecure plain text mode and only later upgraded with STARTTLS\n * **name** - the name of the client server (defaults to machine name)\n * **auth** - authentication object as `{user:"...", pass:"..."}` or  `{XOAuth2: {xoauth2_options}}` or  `{XOAuthToken: "base64data"}`\n * **ignoreTLS** - ignore server support for STARTTLS (defaults to `false`)\n * **debug** - output client and server messages to console\n * **maxConnections** - how many connections to keep in the pool (defaults to 5)\n\nExample:\n\n```javascript\nvar transport = nodemailer.createTransport("SMTP", {\n    service: "Gmail",\n    auth: {\n        user: "gmail.user@gmail.com",\n        pass: "userpass"\n    }\n});\n```\n\nor the same without `service` parameter\n\n```javascript\nvar transport = nodemailer.createTransport("SMTP", {\n    host: "smtp.gmail.com", // hostname\n    secureConnection: true, // use SSL\n    port: 465, // port for secure SMTP\n    auth: {\n        user: "gmail.user@gmail.com",\n        pass: "userpass"\n    }\n});\n```\n\n**NB!** if you want to close the pool (cancel all open connections) you can use `transport.close()`\n\n```javascript\n\nvar transport = nodemailer.createTransport("SMTP",{});\n...\ntransport.close(); // close the pool\n```\n\n\n#### SMTP XOAUTH and token generation\n\n##### XOAUTH2\n\n**nodemailer** supports XOAUTH2 authentication protocol. To use this you need to obtain a Client ID and a Client Secret from [Google API Console](https://code.google.com/apis/console) (Open "API Access" and create "Client ID for web applications") and then request a refresh token for an user. See [Google OAuth 2.0 Offline Access](https://developers.google.com/accounts/docs/OAuth2WebServer#offline) for more information.\n\nOnce you have obtained the Client ID, Client Secret and a Refresh Token for an user, you can use these values to send mail on behalf of the user.\n\n```javascript\nvar transportOptions = {\n    ...,\n    auth: {\n        XOAuth2: {\n            user: "example.user@gmail.com",\n            clientId: "8819981768.apps.googleusercontent.com",\n            clientSecret: "{client_secret}",\n            refreshToken: "1/xEoDL4iW3cxlI7yDbSRFYNG01kVKM2C-259HOF2aQbI",\n            accessToken: "vF9dft4qmTc2Nvb3RlckBhdHRhdmlzdGEuY29tCg==",\n            timeout: 3600\n        }\n    }\n}\n```\n\n`accessToken` and `timeout` values are both optional. If XOAUTH2 login fails a new access token is generated automatically and the login is retried.\n\n##### XOAUTH\n\nOlder XOAUTH is also supporteb by **nodemailer** for SMTP. XOAUTH is based on OAuth protocol 1.0 and is considered deprecated.\n\nTo use this, include `XOAuthToken` option in `auth` instead of the regular `user` and `pass`.\n\n```javascript\nvar transportOptions = {\n    ...,\n    auth: {\n        XOAuthToken: "R0VUIGh0dHBzOi8vbWFpbC5nb29...."\n    }\n}\n```\n\n**nodemailer** includes also built in XOAUTH token generator which can be used\nwith `nodemailer.createXOAuthGenerator()`. The function is preconfigured for\nGmail, so in this case only mandatory options are `user`, `token` and `tokenSecret`.\n\n```javascript\nvar XOAuthTokenGenerator = nodemailer.createXOAuthGenerator({\n        user: "test.nodemailer@gmail.com",\n        // requestUrl: "https://oauth.access.point",\n        // consumerKey: "anonymous",\n        // consumerSecret: "anonymous",\n        token: "1/O_HgoO4h2uOUfpus0V--7mygICXrQQ0ZajB3ZH52KqM",\n        tokenSecret: "_mUBkIwNPnfQBUIWrJrpXJ0c"\n    });\n```\n\nOne of `user` or `requestUrl` is mandatory. `consumerKey` and `consumerSecret` both\ndefault to `"anonymous"`.\n\n```javascript\nvar transportOptions = {\n    service: "Gmail",\n    auth: {\n        XOAuthToken: nodemailer.createXOAuthGenerator({\n            user: "test.nodemailer@gmail.com",\n            token: "1/O_HgoO4h2uOUfpus0V--7mygICXrQQ0ZajB3ZH52KqM",\n            tokenSecret: "_mUBkIwNPnfQBUIWrJrpXJ0c"\n        })\n    }\n}\n```\n\n### Setting up SES\n\nSES is actually a HTTP based protocol, the compiled e-mail and related info\n(signatures and such) are sent as a HTTP request to SES servers.\n\nPossible SES options are the following:\n\n * **AWSAccessKeyID** - AWS access key (required)\n * **AWSSecretKey** - AWS secret (required)\n * **ServiceUrl** - optional API end point URL (defaults to *"https://email.us-east-1.amazonaws.com"*)\n\nExample:\n\n```javascript\nvar transport = nodemailer.createTransport("SES", {\n    AWSAccessKeyID: "AWSACCESSKEY",\n    AWSSecretKey: "AWS/Secret/key"\n});\n```\n\n### Setting up Sendmail\n\nSendmail transport method streams the compiled message to the *stdin* of *sendmail*\ncommand.\n\nOptions object is optional, possible sendmail options are the following:\n\n  * **path** - path to the `sendmail` command (defaults to *"sendmail"*)\n  * **args** - an array of extra command line options to pass to the `sendmail` command (ie. `["-f", "foo@blurdybloop.com"]`).\n\nCurrently the command to be spawned is built up like this: the command is either using `sendmail -i -f from_addr to_addr[]` (by default) or `sendmail -i list_of_args[]` (if `args` property was given). `-i` is ensured to be present on either case. \n\nIn the default case (no `args` defined) From and To addresses are either taken from `From`,`To`, `Cc` and `Bcc` properties or from the `envelope` property if one is present.\n\nBe wary when using the `args` property - no recipients are defined by default, you need to ensure these by yourself, for example by using the `-t` flag.\n\nExample:\n\n```javascript\nvar transport = nodemailer.createTransport("sendmail");\n```\n\nor\n\n```javascript\nvar transport = nodemailer.createTransport("sendmail", {\n    path: "/usr/local/bin/sendmail",\n    args: ["-t", "-f", "foo@blurdybloop.com"]\n});\n```\n\n### DKIM Signing\n\n**Nodemailer** supports DKIM signing with very simple setup. Use this with caution\nthough since the generated message needs to be buffered entirely before it can be\nsigned. Not a big deal with small messages but might consume a lot of RAM when\nusing larger attachments.\n\nSet up the DKIM signing with `useDKIM` method for a transport object:\n\n```javascript\ntransport.useDKIM(dkimOptions)\n```\n\nWhere `dkimOptions` includes necessary options for signing\n\n  * **domainName** - the domainname that is being used for signing\n  * **keySelector** - key selector. If you have set up a TXT record with DKIM public key at *zzz._domainkey.blurdybloop.com* then `zzz` is the selector\n  * **privateKey** - DKIM private key that is used for signing as a string\n  * **headerFieldNames** - optional colon separated list of header fields to sign, by default all fields suggested by RFC4871 #5.5 are used\n\nAll messages transmitted through this transport objects are from now on DKIM signed.\n\nCurrently if several header fields with the same name exists, only the last one (the one in the bottom) is signed.\n\nExample:\n\n```javascript\nvar transport = nodemailer.createTransport("Sendmail");\n\ntransport.useDKIM({\n    domainName: "kreata.ee",\n    keySelector: "dkim",\n    privateKey: fs.readFileSync("private_key.pem")\n});\n\ntransport.sendMail(mailOptions);\n```\n\nSee [examples/example_dkim.js](https://github.com/andris9/Nodemailer/blob/master/examples/example_dkim.js) for a complete example.\n\n### Well known services for SMTP\n\nIf you want to use a well known service as the SMTP host, you do not need\nto enter the hostname or port number, just use the `service` parameter\n\nCurrently supported services are:\n\n  * **DynectEmail**\n  * **Gmail**\n  * **hot.ee**\n  * **Hotmail**\n  * **iCloud**\n  * **mail.ee**\n  * **Mail.Ru**\n  * **Mailgun**\n  * **Mailjet**\n  * **Mandrill**\n  * **Postmark**\n  * **QQ**\n  * **SendGrid**\n  * **SES**\n  * **Yahoo**\n  * **yandex**\n  * **Zoho**\n\nPredefined service data covers `host`, `port` and secure connection settings,\nany other parameters (ie. `auth`) need to be set separately. Service names are\ncase insensitive, so using "gmail" instead of "Gmail" is totally fine.\n\nExample:\n\n```javascript\nvar smtpTransport = nodemailer.createTransport("Gmail",{\n    auth: {\n        user: "gmail.user@gmail.com",\n        pass: "userpass"\n    }\n});\n```\n\nor alternatively\n\n```javascript\nvar smtpTransport = nodemailer.createTransport("SMTP",{\n    service: "Gmail", // sets automatically host, port and connection security settings\n    auth: {\n        user: "gmail.user@gmail.com",\n        pass: "userpass"\n    }\n});\n```\n\nActually, if you are authenticatinw with an e-mail address that has a domain name\nlike @gmail.com or @yahoo.com etc., then you don\'t even need to provide the service name,\nit is detected automatically.\n\n```javascript\nvar smtpTransport = nodemailer.createTransport("SMTP",{\n    auth: {\n        user: "gmail.user@gmail.com", // service is detected from the username\n        pass: "userpass"\n    }\n});\n```\n\n## E-mail message fields\n\nThe following are the possible fields of an e-mail message:\n\n  - **from** - The e-mail address of the sender. All e-mail addresses can be plain `sender@server.com` or formatted `Sender Name <sender@server.com>`\n  - **to** - Comma separated list or an array of recipients e-mail addresses that will appear on the `To:` field\n  - **cc** - Comma separated list or an array of recipients e-mail addresses that will appear on the `Cc:` field\n  - **bcc** - Comma separated list or an array of recipients e-mail addresses that will appear on the `Bcc:` field\n  - **replyTo** - An e-mail address that will appear on the `Reply-To:` field\n  - **inReplyTo** - The message-id this message is replying\n  - **references** - Message-id list\n  - **subject** - The subject of the e-mail\n  - **text** - The plaintext version of the message\n  - **html** - The HTML version of the message\n  - **generateTextFromHTML** - if set to true uses HTML to generate plain text body part from the HTML if the text is not defined\n  - **headers** - An object of additional header fields `{"X-Key-Name": "key value"}` (NB! values are passed as is, you should do your own encoding to 7bit and folding if needed)\n  - **attachments** - An array of attachment objects.\n  - **alternatives** - An array of alternative text contents (in addition to text and html parts)\n  - **envelope** - optional SMTP envelope, if auto generated envelope is not suitable\n  - **messageId** - optional Message-Id value, random value will be generated if not set. Set to false to omit the Message-Id header\n  - **date** - optional Date value, current UTC string will be used if not set\n  - **encoding** - optional transfer encoding for the textual parts (defaults to "quoted-printable")\n  - **charset** - optional output character set for the textual parts (defaults to "utf-8")\n\nAll text fields (e-mail addresses, plaintext body, html body) use UTF-8 as the encoding.\nAttachments are streamed as binary.\n\nExample:\n\n```javascript\nvar transport = nodemailer.createTransport("Sendmail");\n\nvar mailOptions = {\n    from: "me@tr.ee",\n    to: "me@tr.ee",\n    subject: "Hello world!",\n    text: "Plaintext body"\n}\n\ntransport.sendMail(mailOptions);\n```\n\n### SendGrid support\n\nNodemailer supports SendGrid [SMTP API](http://docs.sendgrid.com/documentation/api/smtp-api/) out of the box - you can\nuse objects as header values and these are automatically JSONized (and mime encoded if needed).\n\n```javascript\nvar mailOptions = {\n    ...,\n    headers: {\n        \'X-SMTPAPI\': {\n            category : "newuser",\n            sub:{\n                "%name%": ["Žiguli Õllepruul"]\n            }\n        }\n    },\n    subject: "Hello, %name%"\n}\n```\n\nThis also applies to any other service that expects a JSON string as a header value for specified key.\n\n### Generate Text from HTML\n\nIf `generateTextFromHTML` option is set to true, then HTML contents of the mail is automatically converted\nto plaintext format when plaintext content is empty or missing.\n\nFor example\n\n```javascript\nmailOptions = {\n    ...,\n    generateTextFromHTML: true,\n    html: \'<h1>Hello world</h1><p><b>How</b> are you?\',\n    // text: \'\' // no text part\n}\n```\n\nis automatically converted in the backround by Nodemailer to:\n\n```javascript\nmailOptions = {\n    ...,\n    // source html:\n    html: \'<h1>Hello world</h1><p><b>How</b> are you?\',\n    // automatically generated plaintext message:\n    text: "Hello world\\n"+\n          "===========\\n"+\n          "\\n"+\n          "**How** are you?"\n}\n```\n\nAs you can see the output syntax for `generateTextFromHTML` looks similar to markdown, and that\nis exactly the case here - Nodemailer includes a simple HTML to markdown converter. But don\'t\nexpect too much from it, it\'s not full featured or perfect, just some regexes here and there.\n\n### Attachment fields\n\nAttachment object consists of the following properties:\n\n  * **fileName** - filename to be reported as the name of the attached file, use of unicode is allowed (except when using Amazon SES which doesn\'t like it)\n  * **cid** - optional content id for using inline images in HTML message source\n  * **contents** - String or a Buffer contents for the attachment\n  * **filePath** - path to a file or an URL if you want to stream the file instead of including it (better for larger attachments)\n  * **streamSource** - Stream object for arbitrary binary streams if you want to stream the contents (needs to support *pause*/*resume*)\n  * **contentType** - optional content type for the attachment, if not set will be derived from the `fileName` property\n  * **contentDisposition** - optional content disposition type for the attachment, defaults to "attachment"\n\nOne of `contents`, `filePath` or `streamSource` must be specified, if none is\npresent, the attachment will be discarded. Other fields are optional.\n\nAttachments can be added as many as you want.\n\n```javascript\nvar mailOptions = {\n    ...\n    attachments: [\n        {   // utf-8 string as an attachment\n            fileName: "text1.txt",\n            contents: "hello world!"\n        },\n        {   // binary buffer as an attachment\n            fileName: "text2.txt",\n            contents: new Buffer("hello world!","utf-8")\n        },\n        {   // file on disk as an attachment\n            fileName: "text3.txt",\n            filePath: "/path/to/file.txt" // stream this file\n        },\n        {   // fileName and content type is derived from filePath\n            filePath: "/path/to/file.txt"\n        },\n        {   // stream as an attachment\n            fileName: "text4.txt",\n            streamSource: fs.createReadStream("file.txt")\n        },\n        {   // define custom content type for the attachment\n            fileName: "text.bin",\n            contents: "hello world!",\n            contentType: "text/plain"\n        },\n        {   // use URL as an attachment\n            fileName: "license.txt",\n            filePath: "https://raw.github.com/andris9/Nodemailer/master/LICENSE"\n        }\n    ]\n}\n```\n\n### Alternative fields\n\nIn addition to text and HTML, any kind of data can be inserted as an alternative content of the main body - for example a word processing document with the same text as in the HTML field. It is the job of the e-mail client to select and show the best fitting alternative to the reader.\n\nAttahcment object consists of the following properties:\n\n  * **contents** - String or a Buffer contents for the attachment\n  * **contentType** - optional content type for the attachment, if not set will be set to "application/octet-stream"\n  * **contentEncoding** - optional value of how the data is encoded, defaults to "base64"\n\nIf `contents` is empty, the alternative will be discarded. Other fields are optional.\n\n**Usage example:**\n\n```javascript\nvar mailOptions = {\n    ...\n    html: "<b>Hello world!</b>",\n    alternatives: [\n        {\n            contentType: "text/x-web-markdown",\n            contents: "**Hello world!**"\n        }\n    ]\n}\n```\nIf the receiving e-mail client can render messages in Markdown syntax as well, it could prefer\nto display this alternative as the main content of the message instead of the html part.\n\nAlternatives can be added as many as you want.\n\n### Address Formatting\n\nAll the e-mail addresses can be plain e-mail address\n\n```\nfoobar@blurdybloop.com\n```\n\nor with formatted name (includes unicode support)\n\n```\n"Ноде Майлер" <foobar@blurdybloop.com>\n```\n\nTo, Cc and Bcc fields accept comma separated list of e-mails or an array of\nemails or an array of comma separated list of e-mails - use it as you like.\nFormatting can be mixed.\n\n```\n...,\nto: \'foobar@blurdybloop.com, "Ноде Майлер" <bar@blurdybloop.com>, "Name, User" <baz@blurdybloop.com>\',\ncc: [\'foobar@blurdybloop.com\', \'"Ноде Майлер" <bar@blurdybloop.com>, "Name, User" <baz@blurdybloop.com>\']\n...\n```\n\nYou can even use unicode domain and user names, these are automatically converted\nto the supported form\n\n```\n"Unicode Domain" <info@müriaad-polüteism.info>\n```\n\n### SMTP envelope\n\nSMTP envelope is usually auto generated from `from`, `to`, `cc` and `bcc` fields but\nif for some reason you want to specify it yourself, you can do it with `envelope` property.\n\n`envelope` is an object with the following params: `from`, `to`, `cc` and `bcc` just like\nwith regular mail options. You can also use the regular address format, unicode domains etc.\n\n```javascript\nmailOptions = {\n    ...,\n    from: "mailer@kreata.ee",\n    to: "daemon@kreata.ee",\n    envelope: {\n        from: "Daemon <deamon@kreata.ee>",\n        to: "mailer@kreata.ee, Mailer <mailer2@kreata.ee>"\n    }\n}\n```\n\nThe envelope only applies when using SMTP or sendmail, setting envelope has no effect with SES.\n\n### Using Embedded Images\n\nAttachments can be used as embedded images in the HTML body. To use this\nfeature, you need to set additional property of the attachment - `cid` (unique\nidentifier of the file) which is a reference to the attachment file. The same\n`cid` value must be used as the image URL in HTML (using `cid:` as the URL\nprotocol, see example below).\n\n**NB!** the cid value should be as unique as possible!\n\n```javascript\nvar mailOptions = {\n    ...\n    html: "Embedded image: <img src=\'cid:unique@kreata.ee\' />",\n    attachments: [{\n        filename: "image.png",\n        filePath: "/path/to/file",\n        cid: "unique@kreata.ee" //same cid value as in the html img src\n    }]\n}\n```\n\n**Automatic embedding images**\n\nIf you want to convert images in the HTML to embedded images automatically, you can\nset mail option `forceEmbeddedImages` to true. In this case all images in\nthe HTML that are either using an absolute URL (http://...) or absolute file path\n(/path/to/file) are replaced with embedded attachments.\n\nFor example when using this code\n\n```javascript\nvar mailOptions = {\n    forceEmbeddedImages: true\n    html: \'Embedded image: <img src="http://example.com/image.png">\'\n};\n```\n\nThe image linked is fetched and added automatically as an attachment and the url\nin the HTML is replaced automatically with a proper `cid:` string.\n\n## Return callback\n\nReturn callback gets two parameters\n\n  * **error** - an error object if the message failed\n  * **responseStatus** - an object with some information about the status on success\n    * **responseStatus.messageId** - message ID used with the message\n\nExample:\n\n```javascript\nnodemailer.sendMail(mailOptions, function(error, responseStatus){\n    if(!error){\n        console.log(responseStatus.message); // response from the server\n        console.log(responseStatus.messageId); // Message-ID value used\n    }\n});\n```\n\n**NB!** Message-ID used might not be the same that reaches recipients inbox since some providers (like **SES**) may change the value.\n\n## Command line usage\n\n**NB!** Command line usage was removed from v0.4\n\n## Tests\n\nRun the tests with npm in Nodemailer\'s directory\n\n```\nnpm test\n```\n\nThere aren\'t currently many tests for Nodemailer but there are a lot of tests\nin the modules that are used to generate the raw e-mail body and to use the\nSMTP client connection.\n\n## Tweaking\n\nNodemailer in itself is actually more like a wrapper for my other modules\n[mailcomposer](https://github.com/andris9/mailcomposer) for composing the raw message stream\nand [simplesmtp](https://github.com/andris9/simplesmtp) for delivering it, by providing an\nunified API. If there\'s some problems with particular parts of the\nmessage composing/sending process you should look at the  appropriate module.\n\n## License\n\n**Nodemailer** is licensed under [MIT license](https://github.com/andris9/Nodemailer/blob/master/LICENSE). Basically you can do whatever you want to with it.\n',
+291 silly resolved     readmeFilename: 'README.md',
+291 silly resolved     _id: 'nodemailer@0.5.2',
+291 silly resolved     dist: { shasum: '064a2634c9c4b0c53ef11f30d696b4562dac953c' },
+291 silly resolved     _from: 'nodemailer@*',
+291 silly resolved     _resolved: 'https://registry.npmjs.org/nodemailer/-/nodemailer-0.5.2.tgz' } ]
+292 info install zookeeper@3.4.5-1 into d:\workspaces\JsSource\FastFramework
+293 info install nodemailer@0.5.2 into d:\workspaces\JsSource\FastFramework
+294 info installOne zookeeper@3.4.5-1
+295 info installOne nodemailer@0.5.2
+296 verbose from cache C:\Users\zhaogang\AppData\Roaming\npm-cache\zookeeper\3.4.5-1\package\package.json
+297 verbose from cache C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package\package.json
+298 info d:\workspaces\JsSource\FastFramework\node_modules\zookeeper unbuild
+299 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\package.json
+300 info d:\workspaces\JsSource\FastFramework\node_modules\nodemailer unbuild
+301 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\nodemailer\package.json
+302 verbose tar unpack C:\Users\zhaogang\AppData\Roaming\npm-cache\zookeeper\3.4.5-1\package.tgz
+303 silly lockFile f859b9e4-Framework-node-modules-zookeeper d:\workspaces\JsSource\FastFramework\node_modules\zookeeper
+304 verbose lock d:\workspaces\JsSource\FastFramework\node_modules\zookeeper C:\Users\zhaogang\AppData\Roaming\npm-cache\f859b9e4-Framework-node-modules-zookeeper.lock
+305 silly lockFile bd958f6a-he-zookeeper-3-4-5-1-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\zookeeper\3.4.5-1\package.tgz
+306 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\zookeeper\3.4.5-1\package.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\bd958f6a-he-zookeeper-3-4-5-1-package-tgz.lock
+307 verbose tar unpack C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+308 silly lockFile d185cca4-ramework-node-modules-nodemailer d:\workspaces\JsSource\FastFramework\node_modules\nodemailer
+309 verbose lock d:\workspaces\JsSource\FastFramework\node_modules\nodemailer C:\Users\zhaogang\AppData\Roaming\npm-cache\d185cca4-ramework-node-modules-nodemailer.lock
+310 silly lockFile 4d58ed0f-che-nodemailer-0-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+311 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\4d58ed0f-che-nodemailer-0-5-2-package-tgz.lock
+312 silly gunzTarPerm modes [ '755', '644' ]
+313 silly gunzTarPerm modes [ '755', '644' ]
+314 silly gunzTarPerm extractEntry package.json
+315 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+316 silly gunzTarPerm extractEntry .npmignore
+317 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+318 silly gunzTarPerm extractEntry README.md
+319 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+320 silly gunzTarPerm extractEntry LICENSE
+321 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+322 silly gunzTarPerm extractEntry .travis.yml
+323 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+324 silly gunzTarPerm extractEntry examples/example_alternative.js
+325 silly gunzTarPerm modified mode [ 'examples/example_alternative.js', 438, 420 ]
+326 silly gunzTarPerm extractEntry examples/example_autoembedding.js
+327 silly gunzTarPerm modified mode [ 'examples/example_autoembedding.js', 438, 420 ]
+328 silly gunzTarPerm extractEntry examples/example_dkim.js
+329 silly gunzTarPerm modified mode [ 'examples/example_dkim.js', 438, 420 ]
+330 silly gunzTarPerm extractEntry examples/example_sendmail.js
+331 silly gunzTarPerm modified mode [ 'examples/example_sendmail.js', 438, 420 ]
+332 silly gunzTarPerm extractEntry examples/example_ses.js
+333 silly gunzTarPerm modified mode [ 'examples/example_ses.js', 438, 420 ]
+334 silly gunzTarPerm extractEntry examples/example_smtp.js
+335 silly gunzTarPerm modified mode [ 'examples/example_smtp.js', 438, 420 ]
+336 silly gunzTarPerm extractEntry examples/example_xoauth.js
+337 silly gunzTarPerm modified mode [ 'examples/example_xoauth.js', 438, 420 ]
+338 silly gunzTarPerm extractEntry examples/example_xoauth2.js
+339 silly gunzTarPerm modified mode [ 'examples/example_xoauth2.js', 438, 420 ]
+340 silly gunzTarPerm extractEntry examples/nyan.gif
+341 silly gunzTarPerm modified mode [ 'examples/nyan.gif', 438, 420 ]
+342 silly gunzTarPerm extractEntry examples/test_private.pem
+343 silly gunzTarPerm modified mode [ 'examples/test_private.pem', 438, 420 ]
+344 silly gunzTarPerm extractEntry lib/helpers.js
+345 silly gunzTarPerm modified mode [ 'lib/helpers.js', 438, 420 ]
+346 silly gunzTarPerm extractEntry lib/nodemailer.js
+347 silly gunzTarPerm modified mode [ 'lib/nodemailer.js', 438, 420 ]
+348 silly gunzTarPerm extractEntry lib/transport.js
+349 silly gunzTarPerm modified mode [ 'lib/transport.js', 438, 420 ]
+350 silly gunzTarPerm extractEntry lib/wellknown.js
+351 silly gunzTarPerm modified mode [ 'lib/wellknown.js', 438, 420 ]
+352 silly gunzTarPerm extractEntry package.json
+353 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+354 silly gunzTarPerm extractEntry lib/xoauth.js
+355 silly gunzTarPerm modified mode [ 'lib/xoauth.js', 438, 420 ]
+356 silly gunzTarPerm extractEntry lib/engines/sendmail.js
+357 silly gunzTarPerm modified mode [ 'lib/engines/sendmail.js', 438, 420 ]
+358 silly gunzTarPerm extractEntry README.md
+359 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+360 silly gunzTarPerm extractEntry example.js
+361 silly gunzTarPerm modified mode [ 'example.js', 438, 420 ]
+362 silly gunzTarPerm extractEntry lib/engines/ses.js
+363 silly gunzTarPerm modified mode [ 'lib/engines/ses.js', 438, 420 ]
+364 silly gunzTarPerm extractEntry lib/engines/smtp.js
+365 silly gunzTarPerm modified mode [ 'lib/engines/smtp.js', 438, 420 ]
+366 silly gunzTarPerm extractEntry binding.gyp
+367 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+368 silly gunzTarPerm extractEntry lib/fs-promise.js
+369 silly gunzTarPerm modified mode [ 'lib/fs-promise.js', 438, 420 ]
+370 silly gunzTarPerm extractEntry lib/index.js
+371 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+372 silly gunzTarPerm extractEntry lib/promise.js
+373 silly gunzTarPerm modified mode [ 'lib/promise.js', 438, 420 ]
+374 silly gunzTarPerm extractEntry lib/test-promise.js
+375 silly gunzTarPerm modified mode [ 'lib/test-promise.js', 438, 420 ]
+376 silly gunzTarPerm extractEntry lib/engines/stub.js
+377 silly gunzTarPerm modified mode [ 'lib/engines/stub.js', 438, 420 ]
+378 silly gunzTarPerm extractEntry test/nodemailer.js
+379 silly gunzTarPerm modified mode [ 'test/nodemailer.js', 438, 420 ]
+380 silly gunzTarPerm extractEntry lib/zk_promise.js
+381 silly gunzTarPerm modified mode [ 'lib/zk_promise.js', 438, 420 ]
+382 silly gunzTarPerm extractEntry lib/zookeeper.js
+383 silly gunzTarPerm modified mode [ 'lib/zookeeper.js', 438, 420 ]
+384 silly gunzTarPerm extractEntry libzk-build.sh
+385 silly gunzTarPerm modified mode [ 'libzk-build.sh', 438, 420 ]
+386 silly gunzTarPerm extractEntry LICENSE-MIT.txt
+387 silly gunzTarPerm modified mode [ 'LICENSE-MIT.txt', 438, 420 ]
+388 silly gunzTarPerm extractEntry src/buffer_compat.h
+389 silly gunzTarPerm modified mode [ 'src/buffer_compat.h', 438, 420 ]
+390 silly gunzTarPerm extractEntry src/node-zk.cpp
+391 silly gunzTarPerm modified mode [ 'src/node-zk.cpp', 438, 420 ]
+392 silly gunzTarPerm extractEntry src/zk_log.h
+393 silly gunzTarPerm modified mode [ 'src/zk_log.h', 438, 420 ]
+394 silly gunzTarPerm extractEntry test/README
+395 silly gunzTarPerm modified mode [ 'test/README', 438, 420 ]
+396 silly gunzTarPerm extractEntry test/zk_test_a_get_children.js
+397 silly gunzTarPerm modified mode [ 'test/zk_test_a_get_children.js', 438, 420 ]
+398 silly gunzTarPerm extractEntry test/zk_test_buffer.js
+399 silly gunzTarPerm modified mode [ 'test/zk_test_buffer.js', 438, 420 ]
+400 silly gunzTarPerm extractEntry test/zk_test_chain.js
+401 silly gunzTarPerm modified mode [ 'test/zk_test_chain.js', 438, 420 ]
+402 silly gunzTarPerm extractEntry test/zk_test_create.js
+403 silly gunzTarPerm modified mode [ 'test/zk_test_create.js', 438, 420 ]
+404 silly gunzTarPerm extractEntry test/zk_master.js
+405 silly gunzTarPerm modified mode [ 'test/zk_master.js', 438, 420 ]
+406 silly gunzTarPerm extractEntry test/zk_test_mkdirp.js
+407 silly gunzTarPerm modified mode [ 'test/zk_test_mkdirp.js', 438, 420 ]
+408 silly gunzTarPerm extractEntry test/zk_test_shootout_promise.js
+409 silly gunzTarPerm modified mode [ 'test/zk_test_shootout_promise.js', 438, 420 ]
+410 silly gunzTarPerm extractEntry test/zk_test_utf8.js
+411 silly gunzTarPerm modified mode [ 'test/zk_test_utf8.js', 438, 420 ]
+412 silly gunzTarPerm extractEntry test/zk_test_watcher.js
+413 silly gunzTarPerm modified mode [ 'test/zk_test_watcher.js', 438, 420 ]
+414 silly gunzTarPerm extractEntry test/zk_test_watcher_promise.js
+415 silly gunzTarPerm modified mode [ 'test/zk_test_watcher_promise.js', 438, 420 ]
+416 silly gunzTarPerm extractEntry test/zk_test_watcher_session.js
+417 silly gunzTarPerm modified mode [ 'test/zk_test_watcher_session.js', 438, 420 ]
+418 silly gunzTarPerm extractEntry test/zk_worker.js
+419 silly gunzTarPerm modified mode [ 'test/zk_worker.js', 438, 420 ]
+420 silly gunzTarPerm extractEntry test/zk_test_end_session.js
+421 silly gunzTarPerm modified mode [ 'test/zk_test_end_session.js', 438, 420 ]
+422 silly gunzTarPerm extractEntry test/test
+423 silly gunzTarPerm modified mode [ 'test/test', 438, 420 ]
+424 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\nodemailer\package.json
+425 silly lockFile d185cca4-ramework-node-modules-nodemailer d:\workspaces\JsSource\FastFramework\node_modules\nodemailer
+426 silly lockFile d185cca4-ramework-node-modules-nodemailer d:\workspaces\JsSource\FastFramework\node_modules\nodemailer
+427 silly lockFile 4d58ed0f-che-nodemailer-0-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+428 silly lockFile 4d58ed0f-che-nodemailer-0-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\nodemailer\0.5.2\package.tgz
+429 info preinstall nodemailer@0.5.2
+430 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\nodemailer\package.json
+431 verbose readDependencies using package.json deps
+432 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\nodemailer\package.json
+433 verbose readDependencies using package.json deps
+434 verbose cache add [ 'mailcomposer@~0.2', null ]
+435 verbose cache add name=undefined spec="mailcomposer@~0.2" args=["mailcomposer@~0.2",null]
+436 verbose parsed url { pathname: 'mailcomposer@~0.2',
+436 verbose parsed url   path: 'mailcomposer@~0.2',
+436 verbose parsed url   href: 'mailcomposer@~0.2' }
+437 verbose cache add name="mailcomposer" spec="~0.2" args=["mailcomposer","~0.2"]
+438 verbose parsed url { pathname: '~0.2', path: '~0.2', href: '~0.2' }
+439 verbose addNamed [ 'mailcomposer', '~0.2' ]
+440 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+441 silly lockFile 295c1460-mailcomposer-0-2 mailcomposer@~0.2
+442 verbose lock mailcomposer@~0.2 C:\Users\zhaogang\AppData\Roaming\npm-cache\295c1460-mailcomposer-0-2.lock
+443 verbose cache add [ 'simplesmtp@~0.2 || ~0.3', null ]
+444 verbose cache add name=undefined spec="simplesmtp@~0.2 || ~0.3" args=["simplesmtp@~0.2 || ~0.3",null]
+445 verbose parsed url { pathname: 'simplesmtp@~0.2%20||%20~0.3',
+445 verbose parsed url   path: 'simplesmtp@~0.2%20||%20~0.3',
+445 verbose parsed url   href: 'simplesmtp@~0.2%20||%20~0.3' }
+446 verbose cache add name="simplesmtp" spec="~0.2 || ~0.3" args=["simplesmtp","~0.2 || ~0.3"]
+447 verbose parsed url { pathname: '~0.2%20||%20~0.3',
+447 verbose parsed url   path: '~0.2%20||%20~0.3',
+447 verbose parsed url   href: '~0.2%20||%20~0.3' }
+448 verbose addNamed [ 'simplesmtp', '~0.2 || ~0.3' ]
+449 verbose addNamed [ null, '>=0.2.0- <0.3.0-||>=0.3.0- <0.4.0-' ]
+450 silly lockFile 53ed49a0-simplesmtp-0-2-0-3 simplesmtp@~0.2 || ~0.3
+451 verbose lock simplesmtp@~0.2 || ~0.3 C:\Users\zhaogang\AppData\Roaming\npm-cache\53ed49a0-simplesmtp-0-2-0-3.lock
+452 silly addNameRange { name: 'mailcomposer',
+452 silly addNameRange   range: '>=0.2.0- <0.3.0-',
+452 silly addNameRange   hasData: false }
+453 verbose url raw mailcomposer
+454 verbose url resolving [ 'https://registry.npmjs.org/', './mailcomposer' ]
+455 verbose url resolved https://registry.npmjs.org/mailcomposer
+456 info trying registry request attempt 1 at 11:49:22
+457 http GET https://registry.npmjs.org/mailcomposer
+458 silly addNameRange { name: 'simplesmtp',
+458 silly addNameRange   range: '>=0.2.0- <0.3.0-||>=0.3.0- <0.4.0-',
+458 silly addNameRange   hasData: false }
+459 verbose url raw simplesmtp
+460 verbose url resolving [ 'https://registry.npmjs.org/', './simplesmtp' ]
+461 verbose url resolved https://registry.npmjs.org/simplesmtp
+462 info trying registry request attempt 1 at 11:49:22
+463 http GET https://registry.npmjs.org/simplesmtp
+464 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\package.json
+465 silly lockFile f859b9e4-Framework-node-modules-zookeeper d:\workspaces\JsSource\FastFramework\node_modules\zookeeper
+466 silly lockFile f859b9e4-Framework-node-modules-zookeeper d:\workspaces\JsSource\FastFramework\node_modules\zookeeper
+467 silly lockFile bd958f6a-he-zookeeper-3-4-5-1-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\zookeeper\3.4.5-1\package.tgz
+468 silly lockFile bd958f6a-he-zookeeper-3-4-5-1-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\zookeeper\3.4.5-1\package.tgz
+469 info preinstall zookeeper@3.4.5-1
+470 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\package.json
+471 verbose readDependencies using package.json deps
+472 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\package.json
+473 verbose readDependencies using package.json deps
+474 verbose cache add [ 'async@~0.2.6', null ]
+475 verbose cache add name=undefined spec="async@~0.2.6" args=["async@~0.2.6",null]
+476 verbose parsed url { pathname: 'async@~0.2.6',
+476 verbose parsed url   path: 'async@~0.2.6',
+476 verbose parsed url   href: 'async@~0.2.6' }
+477 verbose cache add name="async" spec="~0.2.6" args=["async","~0.2.6"]
+478 verbose parsed url { pathname: '~0.2.6', path: '~0.2.6', href: '~0.2.6' }
+479 verbose addNamed [ 'async', '~0.2.6' ]
+480 verbose addNamed [ null, '>=0.2.6- <0.3.0-' ]
+481 silly lockFile e00b1d77-async-0-2-6 async@~0.2.6
+482 verbose lock async@~0.2.6 C:\Users\zhaogang\AppData\Roaming\npm-cache\e00b1d77-async-0-2-6.lock
+483 verbose cache add [ 'underscore@*', null ]
+484 verbose cache add name=undefined spec="underscore@*" args=["underscore@*",null]
+485 verbose parsed url { pathname: 'underscore@*',
+485 verbose parsed url   path: 'underscore@*',
+485 verbose parsed url   href: 'underscore@*' }
+486 verbose cache add name="underscore" spec="*" args=["underscore","*"]
+487 verbose parsed url { pathname: '*', path: '*', href: '*' }
+488 verbose addNamed [ 'underscore', '*' ]
+489 verbose addNamed [ null, '' ]
+490 silly lockFile 67e8a6a2-underscore underscore@*
+491 verbose lock underscore@* C:\Users\zhaogang\AppData\Roaming\npm-cache\67e8a6a2-underscore.lock
+492 silly addNameRange { name: 'async', range: '>=0.2.6- <0.3.0-', hasData: false }
+493 silly addNameRange { name: 'underscore', range: '', hasData: false }
+494 verbose url raw underscore
+495 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+496 verbose url resolved https://registry.npmjs.org/underscore
+497 info trying registry request attempt 1 at 11:49:22
+498 verbose etag "A8R9QWBJ5WKW79DEIDOX426QP"
+499 http GET https://registry.npmjs.org/underscore
+500 verbose url raw async
+501 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+502 verbose url resolved https://registry.npmjs.org/async
+503 info trying registry request attempt 1 at 11:49:22
+504 verbose etag "5AI20DZL7W9HK7JEWTJSSR810"
+505 http GET https://registry.npmjs.org/async
+506 http 304 https://registry.npmjs.org/async
+507 silly registry.get cb [ 304,
+507 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+507 silly registry.get     etag: '"5AI20DZL7W9HK7JEWTJSSR810"',
+507 silly registry.get     date: 'Mon, 09 Sep 2013 03:49:24 GMT',
+507 silly registry.get     'content-length': '0' } ]
+508 verbose etag async from cache
+509 silly addNameRange number 2 { name: 'async', range: '>=0.2.6- <0.3.0-', hasData: true }
+510 silly addNameRange versions [ 'async',
+510 silly addNameRange   [ '0.1.0',
+510 silly addNameRange     '0.1.1',
+510 silly addNameRange     '0.1.2',
+510 silly addNameRange     '0.1.3',
+510 silly addNameRange     '0.1.4',
+510 silly addNameRange     '0.1.5',
+510 silly addNameRange     '0.1.6',
+510 silly addNameRange     '0.1.7',
+510 silly addNameRange     '0.1.8',
+510 silly addNameRange     '0.1.9',
+510 silly addNameRange     '0.1.10',
+510 silly addNameRange     '0.1.11',
+510 silly addNameRange     '0.1.12',
+510 silly addNameRange     '0.1.13',
+510 silly addNameRange     '0.1.14',
+510 silly addNameRange     '0.1.15',
+510 silly addNameRange     '0.1.16',
+510 silly addNameRange     '0.1.17',
+510 silly addNameRange     '0.1.18',
+510 silly addNameRange     '0.1.19',
+510 silly addNameRange     '0.1.20',
+510 silly addNameRange     '0.1.21',
+510 silly addNameRange     '0.1.22',
+510 silly addNameRange     '0.2.0',
+510 silly addNameRange     '0.2.1',
+510 silly addNameRange     '0.2.2',
+510 silly addNameRange     '0.2.3',
+510 silly addNameRange     '0.2.4',
+510 silly addNameRange     '0.2.5',
+510 silly addNameRange     '0.2.6',
+510 silly addNameRange     '0.2.7',
+510 silly addNameRange     '0.2.8',
+510 silly addNameRange     '0.2.9' ] ]
+511 verbose addNamed [ 'async', '0.2.9' ]
+512 verbose addNamed [ '0.2.9', '0.2.9' ]
+513 silly lockFile be62480b-async-0-2-9 async@0.2.9
+514 verbose lock async@0.2.9 C:\Users\zhaogang\AppData\Roaming\npm-cache\be62480b-async-0-2-9.lock
+515 verbose read json C:\Users\zhaogang\AppData\Roaming\npm-cache\async\0.2.9\package\package.json
+516 silly lockFile be62480b-async-0-2-9 async@0.2.9
+517 silly lockFile be62480b-async-0-2-9 async@0.2.9
+518 silly lockFile e00b1d77-async-0-2-6 async@~0.2.6
+519 silly lockFile e00b1d77-async-0-2-6 async@~0.2.6
+520 http 200 https://registry.npmjs.org/underscore
+521 silly registry.get cb [ 200,
+521 silly registry.get   { vary: 'Accept',
+521 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+521 silly registry.get     etag: '"5B5TFBCUD4EE1HARVYGBG8GFE"',
+521 silly registry.get     date: 'Mon, 09 Sep 2013 03:49:24 GMT',
+521 silly registry.get     'content-type': 'application/json',
+521 silly registry.get     'content-length': '43793' } ]
+522 silly addNameRange number 2 { name: 'underscore', range: '', hasData: true }
+523 silly addNameRange versions [ 'underscore',
+523 silly addNameRange   [ '1.0.3',
+523 silly addNameRange     '1.0.4',
+523 silly addNameRange     '1.1.0',
+523 silly addNameRange     '1.1.1',
+523 silly addNameRange     '1.1.2',
+523 silly addNameRange     '1.1.3',
+523 silly addNameRange     '1.1.4',
+523 silly addNameRange     '1.1.5',
+523 silly addNameRange     '1.1.6',
+523 silly addNameRange     '1.1.7',
+523 silly addNameRange     '1.2.0',
+523 silly addNameRange     '1.2.1',
+523 silly addNameRange     '1.2.2',
+523 silly addNameRange     '1.2.3',
+523 silly addNameRange     '1.2.4',
+523 silly addNameRange     '1.3.0',
+523 silly addNameRange     '1.3.1',
+523 silly addNameRange     '1.3.2',
+523 silly addNameRange     '1.3.3',
+523 silly addNameRange     '1.4.0',
+523 silly addNameRange     '1.4.1',
+523 silly addNameRange     '1.4.2',
+523 silly addNameRange     '1.4.3',
+523 silly addNameRange     '1.4.4',
+523 silly addNameRange     '1.5.0',
+523 silly addNameRange     '1.5.1',
+523 silly addNameRange     '1.5.2' ] ]
+524 verbose addNamed [ 'underscore', '1.5.2' ]
+525 verbose addNamed [ '1.5.2', '1.5.2' ]
+526 silly lockFile 669f6cbc-underscore-1-5-2 underscore@1.5.2
+527 verbose lock underscore@1.5.2 C:\Users\zhaogang\AppData\Roaming\npm-cache\669f6cbc-underscore-1-5-2.lock
+528 silly lockFile 6b9ebfa0--underscore-underscore-1-5-2-tgz https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz
+529 verbose lock https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\6b9ebfa0--underscore-underscore-1-5-2-tgz.lock
+530 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz',
+530 verbose addRemoteTarball   '1335c5e4f5e6d33bbb4b006ba8c86a00f556de08' ]
+531 info retry fetch attempt 1 at 11:49:25
+532 verbose fetch to= C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\tmp.tgz
+533 http GET https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz
+534 http 200 https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz
+535 silly shasum updated bytes 18440
+536 info shasum 1335c5e4f5e6d33bbb4b006ba8c86a00f556de08
+536 info shasum C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\tmp.tgz
+537 verbose tar unpack C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\tmp.tgz
+538 silly lockFile 944b9936-176-0-030135193839669228-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\package
+539 verbose lock C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\package C:\Users\zhaogang\AppData\Roaming\npm-cache\944b9936-176-0-030135193839669228-package.lock
+540 silly lockFile 849cf45b-176-0-030135193839669228-tmp-tgz C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\tmp.tgz
+541 verbose lock C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\tmp.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\849cf45b-176-0-030135193839669228-tmp-tgz.lock
+542 silly gunzTarPerm modes [ '755', '644' ]
+543 silly gunzTarPerm extractEntry package.json
+544 silly gunzTarPerm extractEntry README.md
+545 silly gunzTarPerm extractEntry LICENSE
+546 silly gunzTarPerm extractEntry underscore-min.js
+547 silly gunzTarPerm extractEntry underscore.js
+548 http 200 https://registry.npmjs.org/mailcomposer
+549 silly registry.get cb [ 200,
+549 silly registry.get   { vary: 'Accept',
+549 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+549 silly registry.get     etag: '"I98KGMRB8F5B3DIL1U7BCWSI"',
+549 silly registry.get     date: 'Mon, 09 Sep 2013 03:49:24 GMT',
+549 silly registry.get     'content-type': 'application/json',
+549 silly registry.get     'content-length': '319260' } ]
+550 silly addNameRange number 2 { name: 'mailcomposer',
+550 silly addNameRange   range: '>=0.2.0- <0.3.0-',
+550 silly addNameRange   hasData: true }
+551 silly addNameRange versions [ 'mailcomposer',
+551 silly addNameRange   [ '0.1.0',
+551 silly addNameRange     '0.1.1',
+551 silly addNameRange     '0.1.2',
+551 silly addNameRange     '0.1.3',
+551 silly addNameRange     '0.1.4',
+551 silly addNameRange     '0.1.5',
+551 silly addNameRange     '0.1.6',
+551 silly addNameRange     '0.1.7',
+551 silly addNameRange     '0.1.8',
+551 silly addNameRange     '0.1.9',
+551 silly addNameRange     '0.1.10',
+551 silly addNameRange     '0.1.11',
+551 silly addNameRange     '0.1.12',
+551 silly addNameRange     '0.1.13',
+551 silly addNameRange     '0.1.14',
+551 silly addNameRange     '0.1.15',
+551 silly addNameRange     '0.1.16',
+551 silly addNameRange     '0.1.17',
+551 silly addNameRange     '0.1.18',
+551 silly addNameRange     '0.1.19',
+551 silly addNameRange     '0.1.20',
+551 silly addNameRange     '0.1.21',
+551 silly addNameRange     '0.1.22',
+551 silly addNameRange     '0.1.23',
+551 silly addNameRange     '0.1.24',
+551 silly addNameRange     '0.1.25',
+551 silly addNameRange     '0.1.26',
+551 silly addNameRange     '0.1.27',
+551 silly addNameRange     '0.1.28',
+551 silly addNameRange     '0.1.29',
+551 silly addNameRange     '0.1.30',
+551 silly addNameRange     '0.1.31',
+551 silly addNameRange     '0.1.33',
+551 silly addNameRange     '0.1.34',
+551 silly addNameRange     '0.2.0',
+551 silly addNameRange     '0.2.1' ] ]
+552 verbose addNamed [ 'mailcomposer', '0.2.1' ]
+553 verbose addNamed [ '0.2.1', '0.2.1' ]
+554 silly lockFile f3327665-mailcomposer-0-2-1 mailcomposer@0.2.1
+555 verbose lock mailcomposer@0.2.1 C:\Users\zhaogang\AppData\Roaming\npm-cache\f3327665-mailcomposer-0-2-1.lock
+556 silly lockFile e5b1c2e5-lcomposer-mailcomposer-0-2-1-tgz https://registry.npmjs.org/mailcomposer/-/mailcomposer-0.2.1.tgz
+557 verbose lock https://registry.npmjs.org/mailcomposer/-/mailcomposer-0.2.1.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\e5b1c2e5-lcomposer-mailcomposer-0-2-1-tgz.lock
+558 verbose addRemoteTarball [ 'https://registry.npmjs.org/mailcomposer/-/mailcomposer-0.2.1.tgz',
+558 verbose addRemoteTarball   '89e1326147fb2c222feb931b40e98b6be133f14a' ]
+559 info retry fetch attempt 1 at 11:49:28
+560 verbose fetch to= C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\tmp.tgz
+561 http GET https://registry.npmjs.org/mailcomposer/-/mailcomposer-0.2.1.tgz
+562 verbose read json C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\package\package.json
+563 silly lockFile 944b9936-176-0-030135193839669228-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\package
+564 silly lockFile 944b9936-176-0-030135193839669228-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\package
+565 silly lockFile 849cf45b-176-0-030135193839669228-tmp-tgz C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\tmp.tgz
+566 silly lockFile 849cf45b-176-0-030135193839669228-tmp-tgz C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\tmp.tgz
+567 verbose from cache C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\package\package.json
+568 verbose tar pack [ 'C:\\Users\\zhaogang\\AppData\\Roaming\\npm-cache\\underscore\\1.5.2\\package.tgz',
+568 verbose tar pack   'C:\\Users\\zhaogang\\AppData\\Local\\Temp\\npm-5764\\1378698565176-0.030135193839669228\\package' ]
+569 verbose tarball C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+570 verbose folder C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\package
+571 silly lockFile 944b9936-176-0-030135193839669228-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\package
+572 verbose lock C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\package C:\Users\zhaogang\AppData\Roaming\npm-cache\944b9936-176-0-030135193839669228-package.lock
+573 silly lockFile 83daba28-che-underscore-1-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+574 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\83daba28-che-underscore-1-5-2-package-tgz.lock
+575 silly lockFile 944b9936-176-0-030135193839669228-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\package
+576 silly lockFile 944b9936-176-0-030135193839669228-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698565176-0.030135193839669228\package
+577 silly lockFile 83daba28-che-underscore-1-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+578 silly lockFile 83daba28-che-underscore-1-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+579 silly lockFile ba75b2ac-m-cache-underscore-1-5-2-package C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package
+580 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package C:\Users\zhaogang\AppData\Roaming\npm-cache\ba75b2ac-m-cache-underscore-1-5-2-package.lock
+581 silly lockFile ba75b2ac-m-cache-underscore-1-5-2-package C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package
+582 silly lockFile ba75b2ac-m-cache-underscore-1-5-2-package C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package
+583 verbose tar unpack C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+584 silly lockFile ba75b2ac-m-cache-underscore-1-5-2-package C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package
+585 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package C:\Users\zhaogang\AppData\Roaming\npm-cache\ba75b2ac-m-cache-underscore-1-5-2-package.lock
+586 silly lockFile 83daba28-che-underscore-1-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+587 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\83daba28-che-underscore-1-5-2-package-tgz.lock
+588 silly gunzTarPerm modes [ '755', '644' ]
+589 silly gunzTarPerm extractEntry package.json
+590 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+591 silly gunzTarPerm extractEntry README.md
+592 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+593 silly gunzTarPerm extractEntry LICENSE
+594 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+595 silly gunzTarPerm extractEntry underscore-min.js
+596 silly gunzTarPerm modified mode [ 'underscore-min.js', 438, 420 ]
+597 silly gunzTarPerm extractEntry underscore.js
+598 silly gunzTarPerm modified mode [ 'underscore.js', 438, 420 ]
+599 verbose read json C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package\package.json
+600 silly lockFile ba75b2ac-m-cache-underscore-1-5-2-package C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package
+601 silly lockFile ba75b2ac-m-cache-underscore-1-5-2-package C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package
+602 silly lockFile 83daba28-che-underscore-1-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+603 silly lockFile 83daba28-che-underscore-1-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+604 silly shasum updated bytes 18417
+605 info shasum 0d51a86e87d416ac982c712817280e8128a5be00
+605 info shasum C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+606 verbose from cache C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package\package.json
+607 verbose chmod C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz 644
+608 silly chown skipping for windows C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+609 silly lockFile 6b9ebfa0--underscore-underscore-1-5-2-tgz https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz
+610 silly lockFile 6b9ebfa0--underscore-underscore-1-5-2-tgz https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz
+611 silly lockFile 669f6cbc-underscore-1-5-2 underscore@1.5.2
+612 silly lockFile 669f6cbc-underscore-1-5-2 underscore@1.5.2
+613 silly lockFile 67e8a6a2-underscore underscore@*
+614 silly lockFile 67e8a6a2-underscore underscore@*
+615 silly resolved [ { name: 'async',
+615 silly resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+615 silly resolved     main: './lib/async',
+615 silly resolved     author: { name: 'Caolan McMahon' },
+615 silly resolved     version: '0.2.9',
+615 silly resolved     repository: { type: 'git', url: 'https://github.com/caolan/async.git' },
+615 silly resolved     bugs: { url: 'https://github.com/caolan/async/issues' },
+615 silly resolved     licenses: [ [Object] ],
+615 silly resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+615 silly resolved     jam: { main: 'lib/async.js', include: [Object] },
+615 silly resolved     scripts: { test: 'nodeunit test/test-async.js' },
+615 silly resolved     readme: '# Async.js\n\nAsync is a utility module which provides straight-forward, powerful functions\nfor working with asynchronous JavaScript. Although originally designed for\nuse with [node.js](http://nodejs.org), it can also be used directly in the\nbrowser. Also supports [component](https://github.com/component/component).\n\nAsync provides around 20 functions that include the usual \'functional\'\nsuspects (map, reduce, filter, each…) as well as some common patterns\nfor asynchronous control flow (parallel, series, waterfall…). All these\nfunctions assume you follow the node.js convention of providing a single\ncallback as the last argument of your async function.\n\n\n## Quick Examples\n\n```javascript\nasync.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n    // results is now an array of stats for each file\n});\n\nasync.filter([\'file1\',\'file2\',\'file3\'], fs.exists, function(results){\n    // results now equals an array of the existing files\n});\n\nasync.parallel([\n    function(){ ... },\n    function(){ ... }\n], callback);\n\nasync.series([\n    function(){ ... },\n    function(){ ... }\n]);\n```\n\nThere are many more functions available so take a look at the docs below for a\nfull list. This module aims to be comprehensive, so if you feel anything is\nmissing please create a GitHub issue for it.\n\n## Common Pitfalls\n\n### Binding a context to an iterator\n\nThis section is really about bind, not about async. If you are wondering how to\nmake async execute your iterators in a given context, or are confused as to why\na method of another library isn\'t working as an iterator, study this example:\n\n```js\n// Here is a simple object with an (unnecessarily roundabout) squaring method\nvar AsyncSquaringLibrary = {\n  squareExponent: 2,\n  square: function(number, callback){ \n    var result = Math.pow(number, this.squareExponent);\n    setTimeout(function(){\n      callback(null, result);\n    }, 200);\n  }\n};\n\nasync.map([1, 2, 3], AsyncSquaringLibrary.square, function(err, result){\n  // result is [NaN, NaN, NaN]\n  // This fails because the `this.squareExponent` expression in the square\n  // function is not evaluated in the context of AsyncSquaringLibrary, and is\n  // therefore undefined.\n});\n\nasync.map([1, 2, 3], AsyncSquaringLibrary.square.bind(AsyncSquaringLibrary), function(err, result){\n  // result is [1, 4, 9]\n  // With the help of bind we can attach a context to the iterator before\n  // passing it to async. Now the square function will be executed in its \n  // \'home\' AsyncSquaringLibrary context and the value of `this.squareExponent`\n  // will be as expected.\n});\n```\n\n## Download\n\nThe source is available for download from\n[GitHub](http://github.com/caolan/async).\nAlternatively, you can install using Node Package Manager (npm):\n\n    npm install async\n\n__Development:__ [async.js](https://github.com/caolan/async/raw/master/lib/async.js) - 29.6kb Uncompressed\n\n## In the Browser\n\nSo far it\'s been tested in IE6, IE7, IE8, FF3.6 and Chrome 5. Usage:\n\n```html\n<script type="text/javascript" src="async.js"></script>\n<script type="text/javascript">\n\n    async.map(data, asyncProcess, function(err, results){\n        alert(results);\n    });\n\n</script>\n```\n\n## Documentation\n\n### Collections\n\n* [each](#each)\n* [map](#map)\n* [filter](#filter)\n* [reject](#reject)\n* [reduce](#reduce)\n* [detect](#detect)\n* [sortBy](#sortBy)\n* [some](#some)\n* [every](#every)\n* [concat](#concat)\n\n### Control Flow\n\n* [series](#series)\n* [parallel](#parallel)\n* [whilst](#whilst)\n* [doWhilst](#doWhilst)\n* [until](#until)\n* [doUntil](#doUntil)\n* [forever](#forever)\n* [waterfall](#waterfall)\n* [compose](#compose)\n* [applyEach](#applyEach)\n* [queue](#queue)\n* [cargo](#cargo)\n* [auto](#auto)\n* [iterator](#iterator)\n* [apply](#apply)\n* [nextTick](#nextTick)\n* [times](#times)\n* [timesSeries](#timesSeries)\n\n### Utils\n\n* [memoize](#memoize)\n* [unmemoize](#unmemoize)\n* [log](#log)\n* [dir](#dir)\n* [noConflict](#noConflict)\n\n\n## Collections\n\n<a name="forEach" />\n<a name="each" />\n### each(arr, iterator, callback)\n\nApplies an iterator function to each item in an array, in parallel.\nThe iterator is called with an item from the list and a callback for when it\nhas finished. If the iterator passes an error to this callback, the main\ncallback for the each function is immediately called with the error.\n\nNote, that since this function applies the iterator to each item in parallel\nthere is no guarantee that the iterator functions will complete in order.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err) which must be called once it has \n  completed. If no error has occured, the callback should be run without \n  arguments or with an explicit null argument.\n* callback(err) - A callback which is called after all the iterator functions\n  have finished, or an error has occurred.\n\n__Example__\n\n```js\n// assuming openFiles is an array of file names and saveFile is a function\n// to save the modified contents of that file:\n\nasync.each(openFiles, saveFile, function(err){\n    // if any of the saves produced an error, err would equal that error\n});\n```\n\n---------------------------------------\n\n<a name="forEachSeries" />\n<a name="eachSeries" />\n### eachSeries(arr, iterator, callback)\n\nThe same as each only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. This means the iterator functions will complete in order.\n\n\n---------------------------------------\n\n<a name="forEachLimit" />\n<a name="eachLimit" />\n### eachLimit(arr, limit, iterator, callback)\n\nThe same as each only no more than "limit" iterators will be simultaneously \nrunning at any time.\n\nNote that the items are not processed in batches, so there is no guarantee that\n the first "limit" iterator functions will complete before any others are \nstarted.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* limit - The maximum number of iterators to run at any time.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err) which must be called once it has \n  completed. If no error has occured, the callback should be run without \n  arguments or with an explicit null argument.\n* callback(err) - A callback which is called after all the iterator functions\n  have finished, or an error has occurred.\n\n__Example__\n\n```js\n// Assume documents is an array of JSON objects and requestApi is a\n// function that interacts with a rate-limited REST api.\n\nasync.eachLimit(documents, 20, requestApi, function(err){\n    // if any of the saves produced an error, err would equal that error\n});\n```\n\n---------------------------------------\n\n<a name="map" />\n### map(arr, iterator, callback)\n\nProduces a new array of values by mapping each value in the given array through\nthe iterator function. The iterator is called with an item from the array and a\ncallback for when it has finished processing. The callback takes 2 arguments, \nan error and the transformed item from the array. If the iterator passes an\nerror to this callback, the main callback for the map function is immediately\ncalled with the error.\n\nNote, that since this function applies the iterator to each item in parallel\nthere is no guarantee that the iterator functions will complete in order, however\nthe results array will be in the same order as the original array.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err, transformed) which must be called once \n  it has completed with an error (which can be null) and a transformed item.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array of the\n  transformed items from the original array.\n\n__Example__\n\n```js\nasync.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n    // results is now an array of stats for each file\n});\n```\n\n---------------------------------------\n\n<a name="mapSeries" />\n### mapSeries(arr, iterator, callback)\n\nThe same as map only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n\n---------------------------------------\n\n<a name="mapLimit" />\n### mapLimit(arr, limit, iterator, callback)\n\nThe same as map only no more than "limit" iterators will be simultaneously \nrunning at any time.\n\nNote that the items are not processed in batches, so there is no guarantee that\n the first "limit" iterator functions will complete before any others are \nstarted.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* limit - The maximum number of iterators to run at any time.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err, transformed) which must be called once \n  it has completed with an error (which can be null) and a transformed item.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array of the\n  transformed items from the original array.\n\n__Example__\n\n```js\nasync.map([\'file1\',\'file2\',\'file3\'], 1, fs.stat, function(err, results){\n    // results is now an array of stats for each file\n});\n```\n\n---------------------------------------\n\n<a name="filter" />\n### filter(arr, iterator, callback)\n\n__Alias:__ select\n\nReturns a new array of all the values which pass an async truth test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like fs.exists. This operation is\nperformed in parallel, but the results array will be in the same order as the\noriginal.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback(truthValue) which must be called with a \n  boolean argument once it has completed.\n* callback(results) - A callback which is called after all the iterator\n  functions have finished.\n\n__Example__\n\n```js\nasync.filter([\'file1\',\'file2\',\'file3\'], fs.exists, function(results){\n    // results now equals an array of the existing files\n});\n```\n\n---------------------------------------\n\n<a name="filterSeries" />\n### filterSeries(arr, iterator, callback)\n\n__alias:__ selectSeries\n\nThe same as filter only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n---------------------------------------\n\n<a name="reject" />\n### reject(arr, iterator, callback)\n\nThe opposite of filter. Removes values that pass an async truth test.\n\n---------------------------------------\n\n<a name="rejectSeries" />\n### rejectSeries(arr, iterator, callback)\n\nThe same as reject, only the iterator is applied to each item in the array\nin series.\n\n\n---------------------------------------\n\n<a name="reduce" />\n### reduce(arr, memo, iterator, callback)\n\n__aliases:__ inject, foldl\n\nReduces a list of values into a single value using an async iterator to return\neach successive step. Memo is the initial state of the reduction. This\nfunction only operates in series. For performance reasons, it may make sense to\nsplit a call to this function into a parallel map, then use the normal\nArray.prototype.reduce on the results. This function is for situations where\neach step in the reduction needs to be async, if you can get the data before\nreducing it then it\'s probably a good idea to do so.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* memo - The initial state of the reduction.\n* iterator(memo, item, callback) - A function applied to each item in the\n  array to produce the next step in the reduction. The iterator is passed a\n  callback(err, reduction) which accepts an optional error as its first \n  argument, and the state of the reduction as the second. If an error is \n  passed to the callback, the reduction is stopped and the main callback is \n  immediately called with the error.\n* callback(err, result) - A callback which is called after all the iterator\n  functions have finished. Result is the reduced value.\n\n__Example__\n\n```js\nasync.reduce([1,2,3], 0, function(memo, item, callback){\n    // pointless async:\n    process.nextTick(function(){\n        callback(null, memo + item)\n    });\n}, function(err, result){\n    // result is now equal to the last value of memo, which is 6\n});\n```\n\n---------------------------------------\n\n<a name="reduceRight" />\n### reduceRight(arr, memo, iterator, callback)\n\n__Alias:__ foldr\n\nSame as reduce, only operates on the items in the array in reverse order.\n\n\n---------------------------------------\n\n<a name="detect" />\n### detect(arr, iterator, callback)\n\nReturns the first value in a list that passes an async truth test. The\niterator is applied in parallel, meaning the first iterator to return true will\nfire the detect callback with that result. That means the result might not be\nthe first item in the original array (in terms of order) that passes the test.\n\nIf order within the original array is important then look at detectSeries.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback(truthValue) which must be called with a \n  boolean argument once it has completed.\n* callback(result) - A callback which is called as soon as any iterator returns\n  true, or after all the iterator functions have finished. Result will be\n  the first item in the array that passes the truth test (iterator) or the\n  value undefined if none passed.\n\n__Example__\n\n```js\nasync.detect([\'file1\',\'file2\',\'file3\'], fs.exists, function(result){\n    // result now equals the first file in the list that exists\n});\n```\n\n---------------------------------------\n\n<a name="detectSeries" />\n### detectSeries(arr, iterator, callback)\n\nThe same as detect, only the iterator is applied to each item in the array\nin series. This means the result is always the first in the original array (in\nterms of array order) that passes the truth test.\n\n\n---------------------------------------\n\n<a name="sortBy" />\n### sortBy(arr, iterator, callback)\n\nSorts a list by the results of running each value through an async iterator.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err, sortValue) which must be called once it\n  has completed with an error (which can be null) and a value to use as the sort\n  criteria.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is the items from\n  the original array sorted by the values returned by the iterator calls.\n\n__Example__\n\n```js\nasync.sortBy([\'file1\',\'file2\',\'file3\'], function(file, callback){\n    fs.stat(file, function(err, stats){\n        callback(err, stats.mtime);\n    });\n}, function(err, results){\n    // results is now the original array of files sorted by\n    // modified date\n});\n```\n\n---------------------------------------\n\n<a name="some" />\n### some(arr, iterator, callback)\n\n__Alias:__ any\n\nReturns true if at least one element in the array satisfies an async test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like fs.exists. Once any iterator\ncall returns true, the main callback is immediately called.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback(truthValue) which must be called with a \n  boolean argument once it has completed.\n* callback(result) - A callback which is called as soon as any iterator returns\n  true, or after all the iterator functions have finished. Result will be\n  either true or false depending on the values of the async tests.\n\n__Example__\n\n```js\nasync.some([\'file1\',\'file2\',\'file3\'], fs.exists, function(result){\n    // if result is true then at least one of the files exists\n});\n```\n\n---------------------------------------\n\n<a name="every" />\n### every(arr, iterator, callback)\n\n__Alias:__ all\n\nReturns true if every element in the array satisfies an async test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like fs.exists.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback(truthValue) which must be called with a \n  boolean argument once it has completed.\n* callback(result) - A callback which is called after all the iterator\n  functions have finished. Result will be either true or false depending on\n  the values of the async tests.\n\n__Example__\n\n```js\nasync.every([\'file1\',\'file2\',\'file3\'], fs.exists, function(result){\n    // if result is true then every file exists\n});\n```\n\n---------------------------------------\n\n<a name="concat" />\n### concat(arr, iterator, callback)\n\nApplies an iterator to each item in a list, concatenating the results. Returns the\nconcatenated list. The iterators are called in parallel, and the results are\nconcatenated as they return. There is no guarantee that the results array will\nbe returned in the original order of the arguments passed to the iterator function.\n\n__Arguments__\n\n* arr - An array to iterate over\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err, results) which must be called once it \n  has completed with an error (which can be null) and an array of results.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array containing\n  the concatenated results of the iterator function.\n\n__Example__\n\n```js\nasync.concat([\'dir1\',\'dir2\',\'dir3\'], fs.readdir, function(err, files){\n    // files is now a list of filenames that exist in the 3 directories\n});\n```\n\n---------------------------------------\n\n<a name="concatSeries" />\n### concatSeries(arr, iterator, callback)\n\nSame as async.concat, but executes in series instead of parallel.\n\n\n## Control Flow\n\n<a name="series" />\n### series(tasks, [callback])\n\nRun an array of functions in series, each one running once the previous\nfunction has completed. If any functions in the series pass an error to its\ncallback, no more functions are run and the callback for the series is\nimmediately called with the value of the error. Once the tasks have completed,\nthe results are passed to the final callback as an array.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final callback as an object\ninstead of an array. This can be a more readable way of handling results from\nasync.series.\n\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed\n  a callback(err, result) it must call on completion with an error (which can\n  be null) and an optional result value.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets a results array (or object) containing all \n  the result arguments passed to the task callbacks.\n\n__Example__\n\n```js\nasync.series([\n    function(callback){\n        // do some stuff ...\n        callback(null, \'one\');\n    },\n    function(callback){\n        // do some more stuff ...\n        callback(null, \'two\');\n    }\n],\n// optional callback\nfunction(err, results){\n    // results is now equal to [\'one\', \'two\']\n});\n\n\n// an example using an object instead of an array\nasync.series({\n    one: function(callback){\n        setTimeout(function(){\n            callback(null, 1);\n        }, 200);\n    },\n    two: function(callback){\n        setTimeout(function(){\n            callback(null, 2);\n        }, 100);\n    }\n},\nfunction(err, results) {\n    // results is now equal to: {one: 1, two: 2}\n});\n```\n\n---------------------------------------\n\n<a name="parallel" />\n### parallel(tasks, [callback])\n\nRun an array of functions in parallel, without waiting until the previous\nfunction has completed. If any of the functions pass an error to its\ncallback, the main callback is immediately called with the value of the error.\nOnce the tasks have completed, the results are passed to the final callback as an\narray.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final callback as an object\ninstead of an array. This can be a more readable way of handling results from\nasync.parallel.\n\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed \n  a callback(err, result) it must call on completion with an error (which can\n  be null) and an optional result value.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets a results array (or object) containing all \n  the result arguments passed to the task callbacks.\n\n__Example__\n\n```js\nasync.parallel([\n    function(callback){\n        setTimeout(function(){\n            callback(null, \'one\');\n        }, 200);\n    },\n    function(callback){\n        setTimeout(function(){\n            callback(null, \'two\');\n        }, 100);\n    }\n],\n// optional callback\nfunction(err, results){\n    // the results array will equal [\'one\',\'two\'] even though\n    // the second function had a shorter timeout.\n});\n\n\n// an example using an object instead of an array\nasync.parallel({\n    one: function(callback){\n        setTimeout(function(){\n            callback(null, 1);\n        }, 200);\n    },\n    two: function(callback){\n        setTimeout(function(){\n            callback(null, 2);\n        }, 100);\n    }\n},\nfunction(err, results) {\n    // results is now equals to: {one: 1, two: 2}\n});\n```\n\n---------------------------------------\n\n<a name="parallel" />\n### parallelLimit(tasks, limit, [callback])\n\nThe same as parallel only the tasks are executed in parallel with a maximum of "limit" \ntasks executing at any time.\n\nNote that the tasks are not executed in batches, so there is no guarantee that \nthe first "limit" tasks will complete before any others are started.\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed \n  a callback(err, result) it must call on completion with an error (which can\n  be null) and an optional result value.\n* limit - The maximum number of tasks to run at any time.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets a results array (or object) containing all \n  the result arguments passed to the task callbacks.\n\n---------------------------------------\n\n<a name="whilst" />\n### whilst(test, fn, callback)\n\nRepeatedly call fn, while test returns true. Calls the callback when stopped,\nor an error occurs.\n\n__Arguments__\n\n* test() - synchronous truth test to perform before each execution of fn.\n* fn(callback) - A function to call each time the test passes. The function is\n  passed a callback(err) which must be called once it has completed with an \n  optional error argument.\n* callback(err) - A callback which is called after the test fails and repeated\n  execution of fn has stopped.\n\n__Example__\n\n```js\nvar count = 0;\n\nasync.whilst(\n    function () { return count < 5; },\n    function (callback) {\n        count++;\n        setTimeout(callback, 1000);\n    },\n    function (err) {\n        // 5 seconds have passed\n    }\n);\n```\n\n---------------------------------------\n\n<a name="doWhilst" />\n### doWhilst(fn, test, callback)\n\nThe post check version of whilst. To reflect the difference in the order of operations `test` and `fn` arguments are switched. `doWhilst` is to `whilst` as `do while` is to `while` in plain JavaScript.\n\n---------------------------------------\n\n<a name="until" />\n### until(test, fn, callback)\n\nRepeatedly call fn, until test returns true. Calls the callback when stopped,\nor an error occurs.\n\nThe inverse of async.whilst.\n\n---------------------------------------\n\n<a name="doUntil" />\n### doUntil(fn, test, callback)\n\nLike doWhilst except the test is inverted. Note the argument ordering differs from `until`.\n\n---------------------------------------\n\n<a name="forever" />\n### forever(fn, callback)\n\nCalls the asynchronous function \'fn\' repeatedly, in series, indefinitely.\nIf an error is passed to fn\'s callback then \'callback\' is called with the\nerror, otherwise it will never be called.\n\n---------------------------------------\n\n<a name="waterfall" />\n### waterfall(tasks, [callback])\n\nRuns an array of functions in series, each passing their results to the next in\nthe array. However, if any of the functions pass an error to the callback, the\nnext function is not executed and the main callback is immediately called with\nthe error.\n\n__Arguments__\n\n* tasks - An array of functions to run, each function is passed a \n  callback(err, result1, result2, ...) it must call on completion. The first\n  argument is an error (which can be null) and any further arguments will be \n  passed as arguments in order to the next task.\n* callback(err, [results]) - An optional callback to run once all the functions\n  have completed. This will be passed the results of the last task\'s callback.\n\n\n\n__Example__\n\n```js\nasync.waterfall([\n    function(callback){\n        callback(null, \'one\', \'two\');\n    },\n    function(arg1, arg2, callback){\n        callback(null, \'three\');\n    },\n    function(arg1, callback){\n        // arg1 now equals \'three\'\n        callback(null, \'done\');\n    }\n], function (err, result) {\n   // result now equals \'done\'    \n});\n```\n\n---------------------------------------\n<a name="compose" />\n### compose(fn1, fn2...)\n\nCreates a function which is a composition of the passed asynchronous\nfunctions. Each function consumes the return value of the function that\nfollows. Composing functions f(), g() and h() would produce the result of\nf(g(h())), only this version uses callbacks to obtain the return values.\n\nEach function is executed with the `this` binding of the composed function.\n\n__Arguments__\n\n* functions... - the asynchronous functions to compose\n\n\n__Example__\n\n```js\nfunction add1(n, callback) {\n    setTimeout(function () {\n        callback(null, n + 1);\n    }, 10);\n}\n\nfunction mul3(n, callback) {\n    setTimeout(function () {\n        callback(null, n * 3);\n    }, 10);\n}\n\nvar add1mul3 = async.compose(mul3, add1);\n\nadd1mul3(4, function (err, result) {\n   // result now equals 15\n});\n```\n\n---------------------------------------\n<a name="applyEach" />\n### applyEach(fns, args..., callback)\n\nApplies the provided arguments to each function in the array, calling the\ncallback after all functions have completed. If you only provide the first\nargument then it will return a function which lets you pass in the\narguments as if it were a single function call.\n\n__Arguments__\n\n* fns - the asynchronous functions to all call with the same arguments\n* args... - any number of separate arguments to pass to the function\n* callback - the final argument should be the callback, called when all\n  functions have completed processing\n\n\n__Example__\n\n```js\nasync.applyEach([enableSearch, updateSchema], \'bucket\', callback);\n\n// partial application example:\nasync.each(\n    buckets,\n    async.applyEach([enableSearch, updateSchema]),\n    callback\n);\n```\n\n---------------------------------------\n\n<a name="applyEachSeries" />\n### applyEachSeries(arr, iterator, callback)\n\nThe same as applyEach only the functions are applied in series.\n\n---------------------------------------\n\n<a name="queue" />\n### queue(worker, concurrency)\n\nCreates a queue object with the specified concurrency. Tasks added to the\nqueue will be processed in parallel (up to the concurrency limit). If all\nworkers are in progress, the task is queued until one is available. Once\na worker has completed a task, the task\'s callback is called.\n\n__Arguments__\n\n* worker(task, callback) - An asynchronous function for processing a queued\n  task, which must call its callback(err) argument when finished, with an \n  optional error as an argument.\n* concurrency - An integer for determining how many worker functions should be\n  run in parallel.\n\n__Queue objects__\n\nThe queue object returned by this function has the following properties and\nmethods:\n\n* length() - a function returning the number of items waiting to be processed.\n* concurrency - an integer for determining how many worker functions should be\n  run in parallel. This property can be changed after a queue is created to\n  alter the concurrency on-the-fly.\n* push(task, [callback]) - add a new task to the queue, the callback is called\n  once the worker has finished processing the task.\n  instead of a single task, an array of tasks can be submitted. the respective callback is used for every task in the list.\n* unshift(task, [callback]) - add a new task to the front of the queue.\n* saturated - a callback that is called when the queue length hits the concurrency and further tasks will be queued\n* empty - a callback that is called when the last item from the queue is given to a worker\n* drain - a callback that is called when the last item from the queue has returned from the worker\n\n__Example__\n\n```js\n// create a queue object with concurrency 2\n\nvar q = async.queue(function (task, callback) {\n    console.log(\'hello \' + task.name);\n    callback();\n}, 2);\n\n\n// assign a callback\nq.drain = function() {\n    console.log(\'all items have been processed\');\n}\n\n// add some items to the queue\n\nq.push({name: \'foo\'}, function (err) {\n    console.log(\'finished processing foo\');\n});\nq.push({name: \'bar\'}, function (err) {\n    console.log(\'finished processing bar\');\n});\n\n// add some items to the queue (batch-wise)\n\nq.push([{name: \'baz\'},{name: \'bay\'},{name: \'bax\'}], function (err) {\n    console.log(\'finished processing bar\');\n});\n\n// add some items to the front of the queue\n\nq.unshift({name: \'bar\'}, function (err) {\n    console.log(\'finished processing bar\');\n});\n```\n\n---------------------------------------\n\n<a name="cargo" />\n### cargo(worker, [payload])\n\nCreates a cargo object with the specified payload. Tasks added to the\ncargo will be processed altogether (up to the payload limit). If the\nworker is in progress, the task is queued until it is available. Once\nthe worker has completed some tasks, each callback of those tasks is called.\n\n__Arguments__\n\n* worker(tasks, callback) - An asynchronous function for processing an array of\n  queued tasks, which must call its callback(err) argument when finished, with \n  an optional error as an argument.\n* payload - An optional integer for determining how many tasks should be\n  processed per round; if omitted, the default is unlimited.\n\n__Cargo objects__\n\nThe cargo object returned by this function has the following properties and\nmethods:\n\n* length() - a function returning the number of items waiting to be processed.\n* payload - an integer for determining how many tasks should be\n  process per round. This property can be changed after a cargo is created to\n  alter the payload on-the-fly.\n* push(task, [callback]) - add a new task to the queue, the callback is called\n  once the worker has finished processing the task.\n  instead of a single task, an array of tasks can be submitted. the respective callback is used for every task in the list.\n* saturated - a callback that is called when the queue length hits the concurrency and further tasks will be queued\n* empty - a callback that is called when the last item from the queue is given to a worker\n* drain - a callback that is called when the last item from the queue has returned from the worker\n\n__Example__\n\n```js\n// create a cargo object with payload 2\n\nvar cargo = async.cargo(function (tasks, callback) {\n    for(var i=0; i<tasks.length; i++){\n      console.log(\'hello \' + tasks[i].name);\n    }\n    callback();\n}, 2);\n\n\n// add some items\n\ncargo.push({name: \'foo\'}, function (err) {\n    console.log(\'finished processing foo\');\n});\ncargo.push({name: \'bar\'}, function (err) {\n    console.log(\'finished processing bar\');\n});\ncargo.push({name: \'baz\'}, function (err) {\n    console.log(\'finished processing baz\');\n});\n```\n\n---------------------------------------\n\n<a name="auto" />\n### auto(tasks, [callback])\n\nDetermines the best order for running functions based on their requirements.\nEach function can optionally depend on other functions being completed first,\nand each function is run as soon as its requirements are satisfied. If any of\nthe functions pass an error to their callback, that function will not complete\n(so any other functions depending on it will not run) and the main callback\nwill be called immediately with the error. Functions also receive an object\ncontaining the results of functions which have completed so far.\n\nNote, all functions are called with a results object as a second argument, \nso it is unsafe to pass functions in the tasks object which cannot handle the\nextra argument. For example, this snippet of code:\n\n```js\nasync.auto({\n  readData: async.apply(fs.readFile, \'data.txt\', \'utf-8\');\n}, callback);\n```\n\nwill have the effect of calling readFile with the results object as the last\nargument, which will fail:\n\n```js\nfs.readFile(\'data.txt\', \'utf-8\', cb, {});\n```\n\nInstead, wrap the call to readFile in a function which does not forward the \nresults object:\n\n```js\nasync.auto({\n  readData: function(cb, results){\n    fs.readFile(\'data.txt\', \'utf-8\', cb);\n  }\n}, callback);\n```\n\n__Arguments__\n\n* tasks - An object literal containing named functions or an array of\n  requirements, with the function itself the last item in the array. The key\n  used for each function or array is used when specifying requirements. The \n  function receives two arguments: (1) a callback(err, result) which must be \n  called when finished, passing an error (which can be null) and the result of \n  the function\'s execution, and (2) a results object, containing the results of\n  the previously executed functions.\n* callback(err, results) - An optional callback which is called when all the\n  tasks have been completed. The callback will receive an error as an argument\n  if any tasks pass an error to their callback. Results will always be passed\n\tbut if an error occurred, no other tasks will be performed, and the results\n\tobject will only contain partial results.\n  \n\n__Example__\n\n```js\nasync.auto({\n    get_data: function(callback){\n        // async code to get some data\n    },\n    make_folder: function(callback){\n        // async code to create a directory to store a file in\n        // this is run at the same time as getting the data\n    },\n    write_file: [\'get_data\', \'make_folder\', function(callback){\n        // once there is some data and the directory exists,\n        // write the data to a file in the directory\n        callback(null, filename);\n    }],\n    email_link: [\'write_file\', function(callback, results){\n        // once the file is written let\'s email a link to it...\n        // results.write_file contains the filename returned by write_file.\n    }]\n});\n```\n\nThis is a fairly trivial example, but to do this using the basic parallel and\nseries functions would look like this:\n\n```js\nasync.parallel([\n    function(callback){\n        // async code to get some data\n    },\n    function(callback){\n        // async code to create a directory to store a file in\n        // this is run at the same time as getting the data\n    }\n],\nfunction(err, results){\n    async.series([\n        function(callback){\n            // once there is some data and the directory exists,\n            // write the data to a file in the directory\n        },\n        function(callback){\n            // once the file is written let\'s email a link to it...\n        }\n    ]);\n});\n```\n\nFor a complicated series of async tasks using the auto function makes adding\nnew tasks much easier and makes the code more readable.\n\n\n---------------------------------------\n\n<a name="iterator" />\n### iterator(tasks)\n\nCreates an iterator function which calls the next function in the array,\nreturning a continuation to call the next one after that. It\'s also possible to\n\'peek\' the next iterator by doing iterator.next().\n\nThis function is used internally by the async module but can be useful when\nyou want to manually control the flow of functions in series.\n\n__Arguments__\n\n* tasks - An array of functions to run.\n\n__Example__\n\n```js\nvar iterator = async.iterator([\n    function(){ sys.p(\'one\'); },\n    function(){ sys.p(\'two\'); },\n    function(){ sys.p(\'three\'); }\n]);\n\nnode> var iterator2 = iterator();\n\'one\'\nnode> var iterator3 = iterator2();\n\'two\'\nnode> iterator3();\n\'three\'\nnode> var nextfn = iterator2.next();\nnode> nextfn();\n\'three\'\n```\n\n---------------------------------------\n\n<a name="apply" />\n### apply(function, arguments..)\n\nCreates a continuation function with some arguments already applied, a useful\nshorthand when combined with other control flow functions. Any arguments\npassed to the returned function are added to the arguments originally passed\nto apply.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to automatically apply when the\n  continuation is called.\n\n__Example__\n\n```js\n// using apply\n\nasync.parallel([\n    async.apply(fs.writeFile, \'testfile1\', \'test1\'),\n    async.apply(fs.writeFile, \'testfile2\', \'test2\'),\n]);\n\n\n// the same process without using apply\n\nasync.parallel([\n    function(callback){\n        fs.writeFile(\'testfile1\', \'test1\', callback);\n    },\n    function(callback){\n        fs.writeFile(\'testfile2\', \'test2\', callback);\n    }\n]);\n```\n\nIt\'s possible to pass any number of additional arguments when calling the\ncontinuation:\n\n```js\nnode> var fn = async.apply(sys.puts, \'one\');\nnode> fn(\'two\', \'three\');\none\ntwo\nthree\n```\n\n---------------------------------------\n\n<a name="nextTick" />\n### nextTick(callback)\n\nCalls the callback on a later loop around the event loop. In node.js this just\ncalls process.nextTick, in the browser it falls back to setImmediate(callback)\nif available, otherwise setTimeout(callback, 0), which means other higher priority\nevents may precede the execution of the callback.\n\nThis is used internally for browser-compatibility purposes.\n\n__Arguments__\n\n* callback - The function to call on a later loop around the event loop.\n\n__Example__\n\n```js\nvar call_order = [];\nasync.nextTick(function(){\n    call_order.push(\'two\');\n    // call_order now equals [\'one\',\'two\']\n});\ncall_order.push(\'one\')\n```\n\n<a name="times" />\n### times(n, callback)\n\nCalls the callback n times and accumulates results in the same manner\nyou would use with async.map.\n\n__Arguments__\n\n* n - The number of times to run the function.\n* callback - The function to call n times.\n\n__Example__\n\n```js\n// Pretend this is some complicated async factory\nvar createUser = function(id, callback) {\n  callback(null, {\n    id: \'user\' + id\n  })\n}\n// generate 5 users\nasync.times(5, function(n, next){\n    createUser(n, function(err, user) {\n      next(err, user)\n    })\n}, function(err, users) {\n  // we should now have 5 users\n});\n```\n\n<a name="timesSeries" />\n### timesSeries(n, callback)\n\nThe same as times only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n\n## Utils\n\n<a name="memoize" />\n### memoize(fn, [hasher])\n\nCaches the results of an async function. When creating a hash to store function\nresults against, the callback is omitted from the hash and an optional hash\nfunction can be used.\n\nThe cache of results is exposed as the `memo` property of the function returned\nby `memoize`.\n\n__Arguments__\n\n* fn - the function you to proxy and cache results from.\n* hasher - an optional function for generating a custom hash for storing\n  results, it has all the arguments applied to it apart from the callback, and\n  must be synchronous.\n\n__Example__\n\n```js\nvar slow_fn = function (name, callback) {\n    // do something\n    callback(null, result);\n};\nvar fn = async.memoize(slow_fn);\n\n// fn can now be used as if it were slow_fn\nfn(\'some name\', function () {\n    // callback\n});\n```\n\n<a name="unmemoize" />\n### unmemoize(fn)\n\nUndoes a memoized function, reverting it to the original, unmemoized\nform. Comes handy in tests.\n\n__Arguments__\n\n* fn - the memoized function\n\n<a name="log" />\n### log(function, arguments)\n\nLogs the result of an async function to the console. Only works in node.js or\nin browsers that support console.log and console.error (such as FF and Chrome).\nIf multiple arguments are returned from the async function, console.log is\ncalled on each argument in order.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to apply to the function.\n\n__Example__\n\n```js\nvar hello = function(name, callback){\n    setTimeout(function(){\n        callback(null, \'hello \' + name);\n    }, 1000);\n};\n```\n```js\nnode> async.log(hello, \'world\');\n\'hello world\'\n```\n\n---------------------------------------\n\n<a name="dir" />\n### dir(function, arguments)\n\nLogs the result of an async function to the console using console.dir to\ndisplay the properties of the resulting object. Only works in node.js or\nin browsers that support console.dir and console.error (such as FF and Chrome).\nIf multiple arguments are returned from the async function, console.dir is\ncalled on each argument in order.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to apply to the function.\n\n__Example__\n\n```js\nvar hello = function(name, callback){\n    setTimeout(function(){\n        callback(null, {hello: name});\n    }, 1000);\n};\n```\n```js\nnode> async.dir(hello, \'world\');\n{hello: \'world\'}\n```\n\n---------------------------------------\n\n<a name="noConflict" />\n### noConflict()\n\nChanges the value of async back to its original value, returning a reference to the\nasync object.\n',
+615 silly resolved     readmeFilename: 'README.md',
+615 silly resolved     _id: 'async@0.2.9',
+615 silly resolved     _from: 'async@~0.2.6' },
+615 silly resolved   { name: 'underscore',
+615 silly resolved     description: 'JavaScript\'s functional programming helper library.',
+615 silly resolved     homepage: 'http://underscorejs.org',
+615 silly resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+615 silly resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+615 silly resolved     repository:
+615 silly resolved      { type: 'git',
+615 silly resolved        url: 'git://github.com/jashkenas/underscore.git' },
+615 silly resolved     main: 'underscore.js',
+615 silly resolved     version: '1.5.2',
+615 silly resolved     devDependencies: { phantomjs: '1.9.0-1' },
+615 silly resolved     scripts: { test: 'phantomjs test/vendor/runner.js test/index.html?noglobals=true' },
+615 silly resolved     licenses: [ [Object] ],
+615 silly resolved     files: [ 'underscore.js', 'underscore-min.js', 'LICENSE' ],
+615 silly resolved     readme: '                       __\n                      /\\ \\                                                         __\n     __  __    ___    \\_\\ \\     __   _ __   ____    ___    ___   _ __    __       /\\_\\    ____\n    /\\ \\/\\ \\ /\' _ `\\  /\'_  \\  /\'__`\\/\\  __\\/ ,__\\  / ___\\ / __`\\/\\  __\\/\'__`\\     \\/\\ \\  /\',__\\\n    \\ \\ \\_\\ \\/\\ \\/\\ \\/\\ \\ \\ \\/\\  __/\\ \\ \\//\\__, `\\/\\ \\__//\\ \\ \\ \\ \\ \\//\\  __/  __  \\ \\ \\/\\__, `\\\n     \\ \\____/\\ \\_\\ \\_\\ \\___,_\\ \\____\\\\ \\_\\\\/\\____/\\ \\____\\ \\____/\\ \\_\\\\ \\____\\/\\_\\ _\\ \\ \\/\\____/\n      \\/___/  \\/_/\\/_/\\/__,_ /\\/____/ \\/_/ \\/___/  \\/____/\\/___/  \\/_/ \\/____/\\/_//\\ \\_\\ \\/___/\n                                                                                  \\ \\____/\n                                                                                   \\/___/\n\nUnderscore.js is a utility-belt library for JavaScript that provides\nsupport for the usual functional suspects (each, map, reduce, filter...)\nwithout extending any core JavaScript objects.\n\nFor Docs, License, Tests, and pre-packed downloads, see:\nhttp://underscorejs.org\n\nUnderscore is an open-sourced component of DocumentCloud:\nhttps://github.com/documentcloud\n\nMany thanks to our contributors:\nhttps://github.com/jashkenas/underscore/contributors\n',
+615 silly resolved     readmeFilename: 'README.md',
+615 silly resolved     _id: 'underscore@1.5.2',
+615 silly resolved     dist: { shasum: '0d51a86e87d416ac982c712817280e8128a5be00' },
+615 silly resolved     _from: 'underscore@*',
+615 silly resolved     _resolved: 'https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz' } ]
+616 info install async@0.2.9 into d:\workspaces\JsSource\FastFramework\node_modules\zookeeper
+617 info install underscore@1.5.2 into d:\workspaces\JsSource\FastFramework\node_modules\zookeeper
+618 info installOne async@0.2.9
+619 info installOne underscore@1.5.2
+620 verbose from cache C:\Users\zhaogang\AppData\Roaming\npm-cache\async\0.2.9\package\package.json
+621 info d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\async unbuild
+622 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\async\package.json
+623 verbose from cache C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package\package.json
+624 info d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\underscore unbuild
+625 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\underscore\package.json
+626 verbose tar unpack C:\Users\zhaogang\AppData\Roaming\npm-cache\async\0.2.9\package.tgz
+627 silly lockFile fa4b13c2-les-zookeeper-node-modules-async d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\async
+628 verbose lock d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\async C:\Users\zhaogang\AppData\Roaming\npm-cache\fa4b13c2-les-zookeeper-node-modules-async.lock
+629 silly lockFile 315b671b-pm-cache-async-0-2-9-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\async\0.2.9\package.tgz
+630 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\async\0.2.9\package.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\315b671b-pm-cache-async-0-2-9-package-tgz.lock
+631 verbose tar unpack C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+632 silly lockFile debace4d-ookeeper-node-modules-underscore d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\underscore
+633 verbose lock d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\underscore C:\Users\zhaogang\AppData\Roaming\npm-cache\debace4d-ookeeper-node-modules-underscore.lock
+634 silly lockFile 83daba28-che-underscore-1-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+635 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\83daba28-che-underscore-1-5-2-package-tgz.lock
+636 silly gunzTarPerm modes [ '755', '644' ]
+637 silly gunzTarPerm modes [ '755', '644' ]
+638 silly gunzTarPerm extractEntry package.json
+639 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+640 silly gunzTarPerm extractEntry README.md
+641 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+642 silly gunzTarPerm extractEntry LICENSE
+643 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+644 silly gunzTarPerm extractEntry underscore-min.js
+645 silly gunzTarPerm modified mode [ 'underscore-min.js', 438, 420 ]
+646 silly gunzTarPerm extractEntry underscore.js
+647 silly gunzTarPerm modified mode [ 'underscore.js', 438, 420 ]
+648 silly gunzTarPerm extractEntry package.json
+649 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+650 silly gunzTarPerm extractEntry README.md
+651 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+652 silly gunzTarPerm extractEntry LICENSE
+653 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+654 silly gunzTarPerm extractEntry component.json
+655 silly gunzTarPerm modified mode [ 'component.json', 438, 420 ]
+656 silly gunzTarPerm extractEntry lib/async.js
+657 silly gunzTarPerm modified mode [ 'lib/async.js', 438, 420 ]
+658 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\underscore\package.json
+659 silly lockFile debace4d-ookeeper-node-modules-underscore d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\underscore
+660 silly lockFile debace4d-ookeeper-node-modules-underscore d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\underscore
+661 silly lockFile 83daba28-che-underscore-1-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+662 silly lockFile 83daba28-che-underscore-1-5-2-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\underscore\1.5.2\package.tgz
+663 info preinstall underscore@1.5.2
+664 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\underscore\package.json
+665 verbose readDependencies using package.json deps
+666 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\underscore\package.json
+667 verbose readDependencies using package.json deps
+668 silly resolved []
+669 verbose about to build d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\underscore
+670 info build d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\underscore
+671 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\underscore\package.json
+672 verbose linkStuff [ false,
+672 verbose linkStuff   false,
+672 verbose linkStuff   false,
+672 verbose linkStuff   'd:\\workspaces\\JsSource\\FastFramework\\node_modules\\zookeeper\\node_modules' ]
+673 info linkStuff underscore@1.5.2
+674 verbose linkBins underscore@1.5.2
+675 verbose linkMans underscore@1.5.2
+676 verbose rebuildBundles underscore@1.5.2
+677 info install underscore@1.5.2
+678 info postinstall underscore@1.5.2
+679 verbose read json d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\async\package.json
+680 silly lockFile fa4b13c2-les-zookeeper-node-modules-async d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\async
+681 silly lockFile fa4b13c2-les-zookeeper-node-modules-async d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\async
+682 silly lockFile 315b671b-pm-cache-async-0-2-9-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\async\0.2.9\package.tgz
+683 silly lockFile 315b671b-pm-cache-async-0-2-9-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\async\0.2.9\package.tgz
+684 info preinstall async@0.2.9
+685 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\async\package.json
+686 verbose readDependencies using package.json deps
+687 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\async\package.json
+688 verbose readDependencies using package.json deps
+689 silly resolved []
+690 verbose about to build d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\async
+691 info build d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\async
+692 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\node_modules\async\package.json
+693 verbose linkStuff [ false,
+693 verbose linkStuff   false,
+693 verbose linkStuff   false,
+693 verbose linkStuff   'd:\\workspaces\\JsSource\\FastFramework\\node_modules\\zookeeper\\node_modules' ]
+694 info linkStuff async@0.2.9
+695 verbose linkBins async@0.2.9
+696 verbose linkMans async@0.2.9
+697 verbose rebuildBundles async@0.2.9
+698 info install async@0.2.9
+699 info postinstall async@0.2.9
+700 verbose about to build d:\workspaces\JsSource\FastFramework\node_modules\zookeeper
+701 info build d:\workspaces\JsSource\FastFramework\node_modules\zookeeper
+702 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\package.json
+703 verbose linkStuff [ false,
+703 verbose linkStuff   false,
+703 verbose linkStuff   false,
+703 verbose linkStuff   'd:\\workspaces\\JsSource\\FastFramework\\node_modules' ]
+704 info linkStuff zookeeper@3.4.5-1
+705 verbose linkBins zookeeper@3.4.5-1
+706 verbose linkMans zookeeper@3.4.5-1
+707 verbose rebuildBundles zookeeper@3.4.5-1
+708 verbose rebuildBundles [ 'async', 'underscore' ]
+709 info install zookeeper@3.4.5-1
+710 verbose unsafe-perm in lifecycle true
+711 silly exec cmd "/c" "node-gyp rebuild"
+712 silly cmd,/c,node-gyp rebuild,d:\workspaces\JsSource\FastFramework\node_modules\zookeeper spawning
+713 http 200 https://registry.npmjs.org/mailcomposer/-/mailcomposer-0.2.1.tgz
+714 silly shasum updated bytes 31435
+715 info shasum 89e1326147fb2c222feb931b40e98b6be133f14a
+715 info shasum C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\tmp.tgz
+716 verbose tar unpack C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\tmp.tgz
+717 silly lockFile 7b1a36b0-8292-0-48754078336060047-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\package
+718 verbose lock C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\package C:\Users\zhaogang\AppData\Roaming\npm-cache\7b1a36b0-8292-0-48754078336060047-package.lock
+719 silly lockFile 7e30b383-8292-0-48754078336060047-tmp-tgz C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\tmp.tgz
+720 verbose lock C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\tmp.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\7e30b383-8292-0-48754078336060047-tmp-tgz.lock
+721 silly gunzTarPerm modes [ '755', '644' ]
+722 silly gunzTarPerm extractEntry package.json
+723 silly gunzTarPerm extractEntry .npmignore
+724 silly gunzTarPerm extractEntry README.md
+725 silly gunzTarPerm extractEntry LICENSE
+726 silly gunzTarPerm extractEntry .travis.yml
+727 silly gunzTarPerm extractEntry lib/dkim.js
+728 silly gunzTarPerm extractEntry lib/mailcomposer.js
+729 silly gunzTarPerm extractEntry lib/punycode.js
+730 silly gunzTarPerm extractEntry lib/urlfetch.js
+731 silly gunzTarPerm extractEntry test/dkim.js
+732 silly gunzTarPerm extractEntry test/mailcomposer.js
+733 silly gunzTarPerm extractEntry test/image3.png
+734 silly gunzTarPerm extractEntry test/test_private.pem
+735 silly gunzTarPerm extractEntry test/test_public.pem
+736 silly gunzTarPerm extractEntry test/textfile.txt
+737 verbose read json C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\package\package.json
+738 silly lockFile 7b1a36b0-8292-0-48754078336060047-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\package
+739 silly lockFile 7b1a36b0-8292-0-48754078336060047-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\package
+740 silly lockFile 7e30b383-8292-0-48754078336060047-tmp-tgz C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\tmp.tgz
+741 silly lockFile 7e30b383-8292-0-48754078336060047-tmp-tgz C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\tmp.tgz
+742 verbose from cache C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\package\package.json
+743 verbose tar pack [ 'C:\\Users\\zhaogang\\AppData\\Roaming\\npm-cache\\mailcomposer\\0.2.1\\package.tgz',
+743 verbose tar pack   'C:\\Users\\zhaogang\\AppData\\Local\\Temp\\npm-5764\\1378698568292-0.48754078336060047\\package' ]
+744 verbose tarball C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package.tgz
+745 verbose folder C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\package
+746 silly lockFile 7b1a36b0-8292-0-48754078336060047-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\package
+747 verbose lock C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\package C:\Users\zhaogang\AppData\Roaming\npm-cache\7b1a36b0-8292-0-48754078336060047-package.lock
+748 silly lockFile 0ad66baf-e-mailcomposer-0-2-1-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package.tgz
+749 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\0ad66baf-e-mailcomposer-0-2-1-package-tgz.lock
+750 silly lockFile 7b1a36b0-8292-0-48754078336060047-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\package
+751 silly lockFile 7b1a36b0-8292-0-48754078336060047-package C:\Users\zhaogang\AppData\Local\Temp\npm-5764\1378698568292-0.48754078336060047\package
+752 silly lockFile 0ad66baf-e-mailcomposer-0-2-1-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package.tgz
+753 silly lockFile 0ad66baf-e-mailcomposer-0-2-1-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package.tgz
+754 silly lockFile d4612240-cache-mailcomposer-0-2-1-package C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package
+755 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package C:\Users\zhaogang\AppData\Roaming\npm-cache\d4612240-cache-mailcomposer-0-2-1-package.lock
+756 silly lockFile d4612240-cache-mailcomposer-0-2-1-package C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package
+757 silly lockFile d4612240-cache-mailcomposer-0-2-1-package C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package
+758 verbose tar unpack C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package.tgz
+759 silly lockFile d4612240-cache-mailcomposer-0-2-1-package C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package
+760 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package C:\Users\zhaogang\AppData\Roaming\npm-cache\d4612240-cache-mailcomposer-0-2-1-package.lock
+761 silly lockFile 0ad66baf-e-mailcomposer-0-2-1-package-tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package.tgz
+762 verbose lock C:\Users\zhaogang\AppData\Roaming\npm-cache\mailcomposer\0.2.1\package.tgz C:\Users\zhaogang\AppData\Roaming\npm-cache\0ad66baf-e-mailcomposer-0-2-1-package-tgz.lock
+763 silly gunzTarPerm modes [ '755', '644' ]
+764 silly gunzTarPerm extractEntry package.json
+765 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+766 silly gunzTarPerm extractEntry .npmignore
+767 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+768 silly gunzTarPerm extractEntry README.md
+769 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+770 silly gunzTarPerm extractEntry LICENSE
+771 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+772 silly gunzTarPerm extractEntry .travis.yml
+773 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+774 silly gunzTarPerm extractEntry lib/dkim.js
+775 silly gunzTarPerm modified mode [ 'lib/dkim.js', 438, 420 ]
+776 silly gunzTarPerm extractEntry lib/mailcomposer.js
+777 silly gunzTarPerm modified mode [ 'lib/mailcomposer.js', 438, 420 ]
+778 silly gunzTarPerm extractEntry lib/punycode.js
+779 silly gunzTarPerm modified mode [ 'lib/punycode.js', 438, 420 ]
+780 silly gunzTarPerm extractEntry lib/urlfetch.js
+781 silly gunzTarPerm modified mode [ 'lib/urlfetch.js', 438, 420 ]
+782 silly gunzTarPerm extractEntry test/dkim.js
+783 silly gunzTarPerm modified mode [ 'test/dkim.js', 438, 420 ]
+784 silly gunzTarPerm extractEntry test/mailcomposer.js
+785 silly gunzTarPerm modified mode [ 'test/mailcomposer.js', 438, 420 ]
+786 silly gunzTarPerm extractEntry test/image3.png
+787 silly gunzTarPerm modified mode [ 'test/image3.png', 438, 420 ]
+788 silly gunzTarPerm extractEntry test/test_private.pem
+789 silly gunzTarPerm modified mode [ 'test/test_private.pem', 438, 420 ]
+790 silly gunzTarPerm extractEntry test/test_public.pem
+791 silly gunzTarPerm modified mode [ 'test/test_public.pem', 438, 420 ]
+792 silly gunzTarPerm extractEntry test/textfile.txt
+793 silly gunzTarPerm modified mode [ 'test/textfile.txt', 438, 420 ]
+794 info zookeeper@3.4.5-1 Failed to exec install script
+795 info d:\workspaces\JsSource\FastFramework\node_modules\zookeeper unbuild
+796 verbose from cache d:\workspaces\JsSource\FastFramework\node_modules\zookeeper\package.json
+797 info preuninstall zookeeper@3.4.5-1
+798 info uninstall zookeeper@3.4.5-1
+799 verbose true,d:\workspaces\JsSource\FastFramework\node_modules,d:\workspaces\JsSource\FastFramework\node_modules unbuild zookeeper@3.4.5-1
+800 info postuninstall zookeeper@3.4.5-1
+801 error zookeeper@3.4.5-1 install: `node-gyp rebuild`
+801 error `cmd "/c" "node-gyp rebuild"` failed with 1
+802 error Failed at the zookeeper@3.4.5-1 install script.
+802 error This is most likely a problem with the zookeeper package,
+802 error not with npm itself.
+802 error Tell the author that this fails on your system:
+802 error     node-gyp rebuild
+802 error You can get their info via:
+802 error     npm owner ls zookeeper
+802 error There is likely additional logging output above.
+803 error System Windows_NT 6.1.7600
+804 error command "d:\\tools\\node\\node.exe" "d:\\tools\\node\\node_modules\\npm\\bin\\npm-cli.js" "install"
+805 error cwd d:\workspaces\JsSource\FastFramework
+806 error node -v v0.8.19
+807 error npm -v 1.2.10
+808 error code ELIFECYCLE
+809 verbose exit [ 1, true ]
